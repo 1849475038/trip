@@ -1,0 +1,51 @@
+<view class="container">
+  <view class="bg">
+    <image src="https://796f-younger-4ercu-1302444409.tcb.qcloud.la/%E8%83%8C%E6%99%AF.png?sign=72c6286578990f961e0ac4473f0f1c10&t=1610983687"></image>
+  </view>
+  <view class="mxc1">
+    <text>您有{{jifen}}个积分</text>
+  </view>
+  <view class="{{flag?'mxc2-1':'mxc2-2'}} qian" bindtap="onBindTap" disabled="{{flag}}">
+    <text wx:if="{{hasList}}">我要签到</text>
+    <text wx:else>您已签到{{firstTime}}次</text>
+  </view>
+  <view class="img">
+    <image src="https://796f-younger-4ercu-1302444409.tcb.qcloud.la/huodong111.png?sign=accb4c11aa2470a1c7034908a06a194b&t=1610982062"></image>
+  </view>
+  <view class="renwu">
+    做任务赢奖励
+  </view>
+  <view class="list">
+    <view class="top">
+    <image src="https://796f-younger-4ercu-1302444409.tcb.qcloud.la/%E4%BC%9A1.jpg?sign=4c2c3393f2779af87f69dc9ae1bf7f77&t=1610978242"></image>
+    <view class="content">
+      <view class="con-top">浏览会员日</view>
+      <view class="jiangli">浏览可得10积分</view>
+    </view>
+  </view>
+  <view class="left">领任务</view>
+  </view>
+
+  <view class="list">
+    <view class="top">
+    <image src="https://796f-younger-4ercu-1302444409.tcb.qcloud.la/%E4%BC%9A2.jpg?sign=0feac000f8c6a6d1f891a68ee8a90c46&t=1610979868"></image>
+    <view class="content">
+      <view class="con-top">开启你的年度旅行...</view>
+      <view class="jiangli">奖励50积分</view>
+    </view>
+  </view>
+  <view class="left">领任务</view>
+  </view>
+
+  <view class="list">
+    <view class="top">
+    <image src="https://796f-younger-4ercu-1302444409.tcb.qcloud.la/%E4%BC%9A3.jpg?sign=5dff5a165aeaf84ada6f30b8c7f29080&t=1610979987"></image>
+    <view class="content">
+      <view class="con-top">1月购超级会员赠积分</view>
+      <view class="jiangli">奖励250积分</view>
+    </view>
+  </view>
+  <view class="left">领任务</view>
+  </view>
+
+</view>

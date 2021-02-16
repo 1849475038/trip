@@ -1,0 +1,39 @@
+
+<!-- 搜索框 -->
+
+<van-search value="{{ value }}" label="地址" placeholder="请输入查询地址" use-action-slot bind:change="onChange">
+  <view slot="action" type="info" bindtap="getName">搜索</view>
+</van-search>
+
+<view wx:if="{{bbb}}">
+<!-- 背景图片 -->
+  <image class="bg" src="{{image}}"></image>
+  <view class="dangqian">当前查询：{{aaa.result.city}}</view>
+  <view class="left-top">
+    <view class="temperature">{{aaa.result.realtime.temperature}}
+      <view class="du">℃</view>
+    </view>
+    <view class="weather">{{aaa.result.realtime.info}}</view>
+  </view>
+  <view class="bbb">
+    <view>
+      <view>风向</view>
+      <view>{{aaa.result.realtime.direct}}</view>
+    </view>
+    <view>
+      <view>风力</view>
+      <view>{{aaa.result.realtime.power}}</view>
+    </view>
+    <view>
+      <view>湿度</view>
+      <view>{{aaa.result.realtime.humidity}}%</view>
+    </view>
+    <view>
+      <view>空气质量</view>
+      <view>{{aaa.result.realtime.temperature}}</view>
+    </view>
+    
+  </view>
+  <view class="wi">
+</view>
+</view>

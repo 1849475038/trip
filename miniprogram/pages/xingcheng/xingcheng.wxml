@@ -1,0 +1,99 @@
+<!--pages/xingcheng/xingcheng.wxml-->
+<view>
+  <image class="bg" src="http://qdm9gonto.bkt.clouddn.com/bg.png"></image>
+  <view class="dinwei">
+    <view class="font1">快速规划旅行路线，不错过任何精彩</view>
+    <view class="button">
+      <button>
+        <view class="top">
+          <van-icon name="plus" />
+        </view>添加行程</button>
+    </view>
+  </view>
+</view>
+<view class="box-a bg-w">
+  <view>
+    <view class="font2">下一站去哪儿</view>
+    <view class="box-b">
+      <view class="pd">
+        <view class="bianju">
+          <image class="img1" src="http://qdm9gonto.bkt.clouddn.com/top1.png"></image>
+        </view>
+        <view class="bianju">
+          <image class="img1" src="http://qdm9gonto.bkt.clouddn.com/top2.png"></image>
+        </view>
+        <view class="bianju">
+          <image class="img1" src="http://qdm9gonto.bkt.clouddn.com/top3.png"></image>
+        </view>
+      </view>
+      <view>
+        <view>
+          <view class="flex">
+            <view class="kuang">
+              <view class="font3">醉美沙滩榜</view>
+              <view class="font4">让浪花亲吻脚丫</view>
+              <view class="top1">4</view>
+            </view>
+            <view class="kuang">
+              <view class="font3">100元嗨一天</view>
+              <view class="font4">超省钱的玩法</view>
+              <view class="top1">5</view>
+            </view>
+            <view class="kuang">
+              <view class="font3">粉红打卡地</view>
+              <view class="font4">满足你的少女心</view>
+              <view class="top1">6</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="pp">
+    <image class="img2" src="http://qdm9gonto.bkt.clouddn.com/bn.png"></image>
+  </view>
+  <view class="pp ">
+    <view class="shangbiankuang">
+      <view class="flex">
+        <view class="font5">带着婚纱奔三亚-三亚首篇婚纱摄影超强攻略</view>
+        <view>
+          <image class="img3" src="http://qdm9gonto.bkt.clouddn.com/aa1.png"></image>
+        </view>
+      </view>
+      <view class="flex align-items to">
+        <view>
+          <image class="img4" src="http://qdm9gonto.bkt.clouddn.com/tx3.png"></image>
+        </view>
+        <view class="font6 f1">星空知念 在
+          <p style="color:orange">三亚</p>
+        </view>
+        <view class="font6">13940阅读</view>
+      </view>
+    </view>
+    <view class="shangbiankuang">
+      <view class="">
+        <view class="font5 a1">海边的微风起，等风也等你|带着闺蜜去三亚吹吹北纬18度的风</view>
+        <view class="flex">
+          <view>
+            <image class="img5" src="http://qdm9gonto.bkt.clouddn.com/bb1.png"></image>
+          </view>
+          <view>
+            <image class="img6" src="http://qdm9gonto.bkt.clouddn.com/bb2.png"></image>
+            <image class="img6" src="http://qdm9gonto.bkt.clouddn.com/bb3.png"></image>
+          </view>
+        </view>
+      </view>
+      <view class="flex align-items to">
+        <view>
+          <image class="img4" src="http://qdm9gonto.bkt.clouddn.com/tx4.png"></image>
+        </view>
+        <view class="font6 f1">小雪 在
+          <p style="color:orange">三亚</p>
+        </view>
+        <view class="font6">13940阅读</view>
+      </view>
+    </view>
+  </view>
+
+</view>
+<view class="font4">—— 还不过瘾 下次再来 ——</view>

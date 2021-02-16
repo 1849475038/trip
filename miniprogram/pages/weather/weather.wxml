@@ -1,0 +1,41 @@
+
+	<!-- 背景图片 -->
+<image class="bg1" src="{{img1}}"></image>
+
+<view>
+
+	<image class="bg" src="{{image}}"></image>
+
+	<view class="dangqian">当前查询：{{aaa.result.city}}</view>
+	<view class="left-top">
+		<view class="temperature">{{aaa.result.realtime.temperature}}
+			<view class="du">℃</view>
+		</view>
+		<view class="weather">{{aaa.result.realtime.info}}</view>
+	</view>
+
+	<view class="bbb">
+		<view>
+			<view>风向</view>
+			<view>{{aaa.result.realtime.direct}}</view>
+		</view>
+		<view>
+			<view>风力</view>
+			<view>{{aaa.result.realtime.power}}</view>
+		</view>
+		<view>
+			<view>湿度</view>
+			<view>{{aaa.result.realtime.humidity}}%</view>
+		</view>
+		<view>
+			<view>空气质量</view>
+			<view>{{aaa.result.realtime.temperature}}</view>
+		</view>
+	</view>
+  <view class="www">
+	  <navigator url="../wutian/wutian?id={{aaa.result.city}}">
+  查看近5日天气
+    </navigator>
+</view>
+
+</view>

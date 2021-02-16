@@ -1,0 +1,88 @@
+<!--pages/ditu/ditu.wxml-->
+<!-- <view class="touming"></view> -->
+<view class="map">
+  <map longitude="{{markers[0].longitude}}" latitude="{{markers[0].latitude}}" scale="14" markers="{{markers}}"
+    style="width:100%; height:500px;"></map>
+  <view bindtap="chooseLocation" class="searchmap">
+    <image
+      src="https://796f-younger-4ercu-1302444409.tcb.qcloud.la/%E4%BD%8D%E7%BD%AE%E5%AE%9A%E4%BD%8D.png?sign=8805b461eb1993e6cb5b57e28b3fef3a&t=1610908513">
+    </image>
+    定位
+  </view>
+  <!-- <button>选择位置</button> -->
+</view>
+<view class="sollo">
+  <view class="content">
+    <view class="content1">
+      {{shop.name}}
+      <image class="img" src="https://796f-younger-4ercu-1302444409.tcb.qcloud.la/%E6%9B%B4%E5%A4%9A%20(2).png?sign=207499886f4de4ddce13369165e02c66&t=1610972569"></image>
+    </view>
+    <view class="content2">
+      <view class="bule">{{shop.pinfen}}分</view>
+      <view class="bule1">{{shop.pinlun}}条点评</view>
+      <view class="bule2">{{shop.biaoyu}}</view>
+    </view>
+    <view class="content3">
+      <view class="img1">
+      <image src="https://796f-younger-4ercu-1302444409.tcb.qcloud.la/%E9%A2%84%E7%BA%A6.png?sign=67025014a6fafccf015ad95c6839d7f3&t=1610966558"></image>
+    </view>
+      <view class="green">开园中</view>
+      <view class="quannian">全年08:40-17:00(最晚入园16:30)</view>
+      <image class="img2"></image>
+    </view>
+    <view class="content4">
+      <view class="left"></view>
+      <view class="img1">
+      <image src="https://796f-younger-4ercu-1302444409.tcb.qcloud.la/%E5%AE%9A%E4%BD%8D%20%E4%BD%8D%E7%BD%AE.png?sign=394a78734525e5e3195c151ad333fe3a&t=1610970286"></image>
+    </view>
+      <view class="quannian">{{shop.dizhi}}</view>
+      <view class="right">
+        <image class="img5" src="https://796f-younger-4ercu-1302444409.tcb.qcloud.la/%E6%9B%B4%E5%A4%9A.png?sign=62faf276d1d7984e7d068bc2fcccbc7e&t=1610971541"></image>
+      </view>
+    </view>
+    <view class="content5">
+      <view class="left">
+        <view class="img11">
+        <image src="https://796f-younger-4ercu-1302444409.tcb.qcloud.la/%E9%A2%84%E8%AE%A2.png?sign=a45653bd6065332ebaf33c5907d5bd19&t=1610971355"></image>
+      </view>
+        <view class="qian">￥{{shop.price}}</view>
+        <view class="qi">起</view>
+      </view>
+      <view class="right">
+        <view class="qu">去预订</view>
+        <image class="img5" src="https://796f-younger-4ercu-1302444409.tcb.qcloud.la/%E6%9B%B4%E5%A4%9A.png?sign=62faf276d1d7984e7d068bc2fcccbc7e&t=1610971541"></image>
+      </view>
+    </view>
+  </view>
+  <view class="fenge"></view>
+  <view class="yonghu">
+  用户点评（1198）
+  </view>
+  <view class="pingfen">
+    <image class="xiaolian" src="https://796f-younger-4ercu-1302444409.tcb.qcloud.la/%E7%AC%91%E8%84%B8.png?sign=9c7cef54535479c79902680421d01299&t=1610971754"></image>
+    <view class="qianm">{{shop.pinfen}}</view>
+    <view class="houmian">/5分</view>
+    <view class="heng"></view>
+    <view class="jingse">景色4.7</view>
+    <view class="jingse">趣味4.5</view>
+    <view class="jingse">性价比4.5</view>
+  </view>
+  <view class="biaoqian">
+    <view class="pianhao">偏好相似316</view>
+    <view class="xinshang">欣赏{{shop.name}}{{shop.chengshi}}市全部美景21</view>
+  </view>
+  <view class="longmen">{{shop.name}}景色漂亮14</view>
+  <view class="txtop">
+    <image class="tx" src="https://796f-younger-4ercu-1302444409.tcb.qcloud.la/l1.jpg?sign=6e0434d3dc0005d5fee54781115ea9fe&t=1610972298"></image>
+    <view class="name">行之千里</view>
+    <view class="dpjia">点评家</view>
+  </view>
+  <view class="text">{{shop.chengshi}}{{shop.name}}实在是太美了，可惜我要准备离开了真舍不得这些美景。等有机会再来看看，领略大自然风光</view>
+  <view class="tupian">
+    <image src="https://796f-younger-4ercu-1302444409.tcb.qcloud.la/l1.jpg?sign=6e0434d3dc0005d5fee54781115ea9fe&t=1610972298"></image>
+    <image src="https://796f-younger-4ercu-1302444409.tcb.qcloud.la/l2.jpg?sign=2d1b0fc8978f5d50b279dc28586a7d03&t=1610972327"></image>
+    <image src="https://796f-younger-4ercu-1302444409.tcb.qcloud.la/l3.jpg?sign=477f9b1f51ad80b49def1bbf44a71209&t=1610972349"></image>
+  </view>
+  <view class="sm">2021-1-1发表</view>
+  <view class="more">查看更多评论></view>
+</view>

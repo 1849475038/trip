@@ -1,0 +1,87 @@
+<!--pages/dindan/dindan.wxml-->
+<view wx:if="{{open}}">
+  <view>
+    <view class="title">
+      {{shop.name}}
+    </view>
+    <view>
+      <van-cell title="选择使用日期" value="{{ date }}" bind:click="onDisplay" />
+      <van-calendar show="{{ show }}" bind:close="onClose" bind:confirm="onConfirm" />
+    </view>
+    <view class="top">
+      <view class="one">
+        <view class="left">
+          <view class="font1">成人票</view>
+          <view class="one font2">
+            <view class="xian">随时退</view>
+            <view class="xian1">需取票</view>
+          </view>
+          <view class="font2 color-b">购买须知</view>
+        </view>
+        <view class="right">
+          <view class="right1">{{shop.price}}￥</view>
+          <view class="one top1">
+            <view class="jian" bindtap="reduce">-</view>
+            <view class="font3">{{number}}</view>
+            <view class="jian" bindtap="add">+</view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="down">
+      <view class="d-left">
+        <view class="font2 color1">总额为:￥</view>
+        <view class="font1 color1">{{shop.price*number}}</view>
+        <view class="font2 color2" bindtap="showPopup1">明细
+          <van-icon name="arrow-up" />
+        </view>
+      </view>
+      <view class="d-right">
+        <button bindtap="pay">支付</button>
+      </view>
+    </view>
+    <view hidden="{{hidden}}">
+      <view class="bg-b" bindtap="onClose1"></view>
+      <view class="mingxi">
+        <view class="text">费用明细</view>
+        <view class="xiangxi">
+          <view class="xiangxi1">
+            <view class="font3">{{shop.name}}门票+往返船票</view>
+            <view class="font2">成人票</view>
+          </view>
+          <view>
+            <view class="font3">￥{{shop.price*number}}</view>
+            <view class="font2">￥{{shop.price}} x{{number}}</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="zz-box" hidden="{{fk}}">
+    <view class="zz-1">
+      <view class="x" bindtap="tanchu">x</view>
+      <view class="flex jiaqian">
+        <view class="jq-1">￥</view>
+        <view class="jq-2">{{shop.price*number}}</view>
+      </view>
+      <view class="flex jj">
+        <view class="flex1 title3">支付宝账号</view>
+        <view class="title">183******78</view>
+      </view>
+      <view class="flex jj">
+        <view class="flex1 title3">付款方式</view>
+        <view class="title">花呗</view>
+        <image class="box1-img2" src="cloud://ynl-6ue2i.796e-ynl-6ue2i-1302444261/xq/moer.png"></image>
+      </view>
+      <view class="btn1" bindtap="fukuan">
+        立即付款
+      </view>
+    </view>
+  </view>
+</view>
+<view wx:else>
+  <view class="denglu-font">未登录，请先授权登录</view>
+    <button class="denglu" bindtap="denglu">
+      前往登录
+    </button>
+</view>

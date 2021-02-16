@@ -1,0 +1,60 @@
+<!--pages/jfsc3/jfsc3.wxml-->
+<view class="box">
+	<view class="content">
+		<view class="left">
+			<image src="{{good.pic}}"></image>
+		</view>
+
+		<view class="right">
+			<view class=" ontop">
+				<view class="ontop2">
+					<view class="wz1">自营</view>
+					<view class="wz2">{{good.name}}</view>
+				</view>
+				<view class="wz3">{{good.names}}</view>
+				<view class="ontop3">
+					<view class="wz4">{{good.branch}}分</view>
+					<view class="wz5">已售{{good.sold}}件</view>
+				</view>
+			</view>
+
+		</view>
+	</view>
+
+	<!-- 步骤条 -->
+	<van-steps active-icon="success" active-color="#f1654k" steps="{{ steps }}" active="{{ active }}" />
+	<view class="yixuan-box">
+		<view class="yixuan">
+
+			<view class="aaa">已选</view>
+			<view class="bbb">携程超级会员*1</view>
+
+			<view class="icon">
+				<van-icon name="arrow" />
+			</view>
+
+		</view>
+	</view>
+
+	<view class="'youxiaoqi'">
+		<view class="yxq">使用有效期</view>
+		<view class="yxq2">兑换时间在2019年6月10日前，券码有效期至2019年6月30日。
+			兑换时间在2019年6月11日至2019年12月16日，券码有效期至2019年12月31日。
+			兑换时间在2019年12月17日至2020年11月28日，券码有效期至2020年11月28日。</view>
+	</view>
+
+  
+
+  <view class="'youxiaoqi2'">
+		<view class="yxq">使用有效期</view>
+		<view class="yxq2">凭此兑换码可兑换携程超级会员，尊享旅行特权，升级你的旅行。 
+请在有效期内兑换携程超级会员，会籍自成功兑换之日起1年有效。
+【介绍】：携程超级会员涵盖围绕机票、酒店、火车票、门票、用车等多项旅行特权，具体特权范围以超级会员实际产品页面为准，查看详情。 
+【使用说明】： 
+1、	每位用户仅限使用一个兑换码，可兑换188元版本超级会员，每个兑换码仅限使用一次。
+2、	获得兑换码后，点此兑换，也可至携程旅行APP-“我的”-“超级会员”- 页面右上角“个人中心” -“兑换码”输入兑换码兑换188元版超级会员。 
+3、	该兑换码需登录携程账号后兑换使用，一经兑换，无法退订，无法修改权益账号，敬请留意当前登录账号。暂无携程账号的用户需先注册再领取使用兑换码。
+</view>
+	</view>
+
+</view>

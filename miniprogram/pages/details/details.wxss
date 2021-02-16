@@ -1,0 +1,154 @@
+/* pages/details/details.wxss */
+
+.swiper-box swiper-item image {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  padding: 20rpx 0 0 24rpx;
+}
+
+.header view {
+  float: left;
+}
+
+.location {
+  width: 25%;
+  height: 50rpx;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 24rpx;
+  color: white;
+  font-size: 24rpx;
+  line-height: 50rpx;
+  padding-left: 12rpx;
+}
+
+.location image {
+  width: 32rpx;
+  height: 32rpx;
+  vertical-align: middle;
+}
+
+.search {
+  width: 60%;
+  height: 50rpx;
+  margin-left: 24rpx;
+  position: relative;
+}
+
+.search input {
+  height: 50rpx;
+  padding-left: 52rpx;
+  background: white;
+  border-radius: 24rpx;
+  font-size: 24rpx;
+}
+
+.search image {
+  width: 36rpx;
+  height: 36rpx;
+  position: absolute;
+  top: 8rpx;
+  left: 14rpx;
+}
+
+/* .content{
+  display: flex;
+} */
+
+.yanse .van-tabs__line {
+  background-color: skyblue;
+}
+
+/* .card{
+  background:white;
+  width: 45%;
+  height: 450rpx;
+  border: 1rpx solid skyblue;
+  border-radius: 12rpx;
+} */
+
+.list {
+  background: white;
+  width: 100%;
+  height: auto;
+  border: 1rpx solid gainsboro;
+  border-radius: 12rpx;
+  display: flex;
+}
+
+.list .img{
+  border-radius: 12rpx;
+}
+.img {
+
+  width: 150rpx;
+  height: 180rpx;
+  padding: 20rpx;
+  display: inline-table;
+}
+
+.north-word {
+  flex: auto;
+}
+
+.north-name {
+  padding: 10rpx;
+  width: 530rpx;
+  font-size: 28rpx;
+  font-weight: bold;
+}
+
+.north-tip {
+  width: 530rpx;
+  padding: 4rpx 0;
+  font-size: 26rpx;
+  color: gray;
+}
+
+.north-lie {
+ width: 400rpx;
+ 
+  font-size: 26rpx;
+  color: gray;
+}
+
+.price {
+  padding-top: 2rpx;
+  
+  justify-content: center;
+ flex-wrap: nowrap;
+}
+
+.box {
+  height: 50rpx;
+  display: flex;
+  padding: 10rpx;
+  line-height: 50rpx;
+}
+
+.ellipsis {
+  overflow: hidden; /* 文字超出固定宽度隐藏*/
+  white-space: nowrap; /*文字强制不换行 */
+  text-overflow: ellipsis; /* 多出部分文字以省略号显示 */
+}
+.color{
+  color: black;
+}
+.font1{
+ font-size: 24rpx
+}
+.font2{
+  font-size: 28rpx;
+}
+.color2{
+  color: red;
+}

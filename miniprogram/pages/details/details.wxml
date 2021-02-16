@@ -1,0 +1,43 @@
+<!--pages/details/details.wxml-->
+<view class="header">
+  <view class="location">
+    <image src="http://qbtncupkr.bkt.clouddn.com/icon_location.png"></image>
+    定位中...
+  </view>
+  <view class="search">
+    <input placeholder="毕业旅行"></input>
+    <image src="http://qbtncupkr.bkt.clouddn.com/icon_search.png"></image>
+  </view>
+</view>
+<view class="swiper-box">
+
+  <swiper indicator-dots="true" indicator-color="black" indicator-active-color="skyblue" circular autoplay style="height:360rpx">
+    <swiper-item>
+      <image src="http://qdmcywy3p.bkt.clouddn.com/bh-banner1.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="http://qdmcywy3p.bkt.clouddn.com/bh-banner2.jpg"></image>
+    </swiper-item>
+  </swiper>
+
+</view>
+<view class="content">
+  <navigator class="list" wx:for="{{spot}}" url="../dity/dity">
+    <image src="{{item.imgSrc}}" class="img"></image>
+    <view class="north-word">
+      <view class="north-name">{{item.name}}</view>
+      <view class="north-tip ellipsis">{{item.tip}}</view>
+      <view class="box">
+        <view class="north-lie ellipsis">{{item.text}}</view>
+        <view class="price font1">
+          <p class="color2">￥
+            <p class="font2">{{item.price}}</p>
+          </p>
+          <p class="color1 ">起</p>
+        </view>
+      </view>
+    </view>
+
+  </navigator>
+
+</view>

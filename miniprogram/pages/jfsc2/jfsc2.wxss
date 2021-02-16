@@ -1,0 +1,71 @@
+/* pages/jfsc2/jfsc2.wxss */
+.content{
+
+  background: white;
+  height: 240rpx;
+  border-radius:16rpx;
+  margin: 20rpx 20rpx;
+  display: flex;
+}
+.left image{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius:16rpx;
+  margin: 20rpx; 
+}
+.right{
+   display: flex;
+  
+}
+.ontop{
+  margin: 20rpx 0;
+   width: 800rpx;
+}
+.ontop2{
+  display: flex;
+  width: 100%;
+  margin: 20rpx 10rpx;
+}
+.wz1{
+  background: blue;
+  color: white;
+  border-radius:8rpx; 
+  font-size: 24rpx;
+  padding: 4rpx 12rpx;
+  
+}
+.wz2{
+  font-size: 30rpx;
+  margin: 0 20rpx;
+  width: 350rpx;
+   white-space: nowrap;  /*设置文字强制不换行*/
+   overflow: hidden; /*文字超出部分隐藏*/  
+  text-overflow: ellipsis;/*文字超出部分出现省略号*/  
+}
+.wz3{
+  font-size: 26rpx;
+  color: rgb(153, 153, 153);
+   width: 400rpx;
+   white-space: nowrap;  /*设置文字强制不换行*/
+   overflow: hidden; /*文字超出部分隐藏*/  
+  text-overflow: ellipsis;/*文字超出部分出现省略号*/  
+}
+
+.wz4{
+  font-size: 34rpx;
+  color: red;
+}
+.wz5{
+  font-size: 24rpx;
+  margin-left: 150rpx;
+  margin-top: 10rpx;
+  color: rgb(193, 193, 194);
+}
+.ontop3{
+  display: flex;
+  margin-top: 30rpx;
+}
+
+.AAA .van-tabs__line{
+  background-color: blue;
+}

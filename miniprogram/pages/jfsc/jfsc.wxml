@@ -1,0 +1,79 @@
+<!--miniprogram/pages/jfsc/jfsc.wxml-->
+<view class="content">
+  <image class="bg" src="http://qdlvmtjcc.bkt.clouddn.com/bg.png"></image>
+  <!-- 顶部导航栏 -->
+  <view class="head">
+
+    <view class="upper"> 0</view>
+
+    <view class="lower">签到获取积分</view>
+  </view>
+  <!-- 卡片1 -->
+  <view class="kapian1">
+    <view class="d1">
+      <image class="wdsc-img" src="http://qdpwc973t.bkt.clouddn.com/A1.jpg"></image>
+      <view class="qbdd">优品商城</view>
+    </view>
+
+    <view class="d1">
+      <image class="wdsc-img" src="http://qdpwc973t.bkt.clouddn.com/A2.jpg"></image>
+      <view class="qbdd">积分明细</view>
+    </view>
+
+    <view class="d1">
+      <image class="wdsc-img" src="http://qdpwc973t.bkt.clouddn.com/A3.jpg"></image>
+      <view class="qbdd">积分订单</view>
+    </view>
+
+    <view class="d1">
+      <image class="wdsc-img" src="http://qdpwc973t.bkt.clouddn.com/A4.jpg"></image>
+      <view class="qbdd">积分活动</view>
+    </view>
+
+  </view>
+
+  <!-- 积分兑权益 -->
+  <view class="kapian2">
+    <view class="kapian2-head">
+      <view class="kapian2-upper"> 积分兑权益</view>
+      <view class="kapian2-lower">—————— 热门权益优选服务 ——————</view>
+    </view>
+
+    <!-- 超值人气 -->
+    <view class="czrq-box" wx:for="{{goodsList}}" wx:key="list">
+     <navigator url="../jfsc2/jfsc2?id={{goodsList[index].id}}">
+      <view class="title-box">
+        <view class="title"> {{goodsList[index].classifyName}}</view>
+        <image class="wdsc-img" src="http://qdpwc973t.bkt.clouddn.com/fanhui.jpg"></image>
+      </view>
+       </navigator>
+
+      <view class="box">
+        <view class="img-box" wx:for="{{goodsList[index].goods}}" wx:key="good" wx:for-item="id">
+          <navigator url="../jfsc3/jfsc3?id={{goods[id].id}}">
+          <image class="car-img" src="{{goods[id].pic}}"></image>
+          <view class="xl">{{goods[id].name}}</view>
+          <view class="num">{{goods[id].sold}}分起</view>
+          </navigator>
+        </view>
+
+      </view>
+      
+      <view class="line"></view>
+    </view>
+
+    <view class="more-box">
+      <view class="more">更多积分兑权益</view>
+      <image class="wdsc-img" src="http://qdpwc973t.bkt.clouddn.com/fanhui.jpg"></image>
+    </view>
+
+
+    <view class="food">
+      <image class="wdsc-img" src="http://qdpwc973t.bkt.clouddn.com/guanggao.jpg"></image>
+    </view>
+  </view>
+
+
+
+
+</view>

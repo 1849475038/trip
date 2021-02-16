@@ -1,0 +1,73 @@
+/* pages/list/list.wxss */
+.flex{
+  display: flex;
+}
+.flex1{
+  flex: 1;
+}
+.title1{
+  background: rgba(0, 123, 224, 0.884);
+  border-radius: 50rpx;
+  color: white;
+  font-size: 24rpx;
+  padding: 5rpx 15rpx;
+}
+.box{
+  padding:0 20rpx;
+}
+.title{
+  font-size: 34rpx;
+  font-weight: bold;
+}
+.date{
+  font-size: 26rpx;
+}
+.price1{
+  color: red;
+  font-size: 26rpx;
+  padding-top: 5rpx;
+}
+.price2 {
+ font-size: 34rpx;
+ color: red;
+}
+.box1{
+  margin-top: 10rpx;
+  margin-bottom: 20rpx;
+  padding: 20rpx;
+  border-radius: 8rpx;
+  background: white;
+}
+.btn{
+  justify-content: flex-end;
+  margin-top: 20rpx;
+}
+.btn view{
+ border-radius: 8rpx;
+ border: 1rpx solid #cfcfcf;
+ font-size: 26rpx;
+ padding: 5rpx 10rpx;
+ margin-left: 10rpx;
+}
+.top{
+  text-align: center;
+  color: gray;
+  position: absolute;
+  z-index: -1;
+  top: 60rpx;
+  left: 45%;
+}
+.denglu{
+  background: rgba(0, 123, 224, 0.884);
+  color: white;
+  width: 250rpx;
+  height: 60rpx;
+font-size: 32rpx;
+  line-height: 60rpx;
+}
+.denglu-font{
+  font-size: 28rpx;
+  color: gray;
+  text-align: center;
+  margin: 300rpx 0 40rpx;
+}

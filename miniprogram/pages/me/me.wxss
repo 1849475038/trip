@@ -1,0 +1,157 @@
+/* pages/me/me.wxss */
+.img-me{
+  width: 460rpx;
+  height: 460rpx;
+  border-radius: 20rpx;
+  margin: 40rpx 0 0 20rpx ;
+}
+.bggg{
+  background: white;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -1000;
+}
+.header{
+  width: 100%;
+height:400rpx;
+background: rgba(0, 123, 224, 0.884);
+position: relative;
+}
+.content{
+  background: white;
+  width: 100%;
+  height: 860rpx;
+  border-radius: 20rpx;
+  position: relative;
+  top: -40rpx;
+}
+.content-text{
+  padding: 10rpx 0 0 20rpx;
+}
+.touxiang{
+  border-radius: 100rpx;
+  width: 160rpx;
+  height: 160rpx;
+}
+.name{
+  font-size: 45rpx;
+  color: white;
+
+}
+.lv{
+  background: gold;
+  border-radius: 50rpx;
+  width: 80rpx;
+  height: 40rpx;
+  text-align: center;
+  line-height: 40rpx;
+  color: white;
+  font-size: 26rpx;
+  margin: 10rpx 0 0 20rpx;
+}
+.name-box{
+  display: flex;
+}
+
+.content-line{
+  display: flex;
+  color: white;
+}
+.text-three{
+  padding:10rpx 20rpx 0 0;
+  letter-spacing: 4rpx;
+  font-size: 26rpx;
+}
+.dengji{
+  border: 2rpx solid white;
+  padding: 10rpx;
+  width: 180rpx;
+  text-align: center;
+  border-radius: 50rpx;
+  color:white;
+  position: absolute;
+  top: 140rpx;
+  right: 20rpx;
+}
+.box{
+padding:60rpx 0 0 20rpx;
+}
+.dongtai{
+  font-size: 36rpx;
+  margin: 20rpx;
+}
+.quanbu{
+  background: lightblue;
+  width: 120rpx;
+  height: 50rpx;
+  text-align: center;
+  line-height: 50rpx;
+  font-size: 26rpx;
+  color:rgba(0, 123, 224, 0.884);
+  border-radius: 50rpx;
+  margin-left: 20rpx;
+}
+.tuwen{
+  background: lightgray;
+  width: 160rpx;
+  height: 50rpx;
+  text-align: center;
+  line-height: 50rpx;
+  font-size: 26rpx;
+  border-radius: 50rpx;
+  margin-left: 30rpx;
+}
+.more{
+  display: flex;
+}
+.nin{
+  font-size: 24rpx;
+  color: gray;
+  margin: 20rpx 0 0 20rpx;
+}
+.bottom-icon{
+  width: 50rpx;
+  height: 50rpx;
+  margin-top: -8rpx;
+}
+.bottom-box{
+  display: flex;
+  right: 28rpx;
+  padding-bottom: 20rpx;
+  padding-right: 20rpx;
+}
+.bottom-icon1{
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 40rpx;
+}
+.add{
+  background-color:rgba(0, 123, 224, 0.884);
+  border-radius: 50%;
+  width:120rpx;
+  height: 120rpx;
+  color: white;
+  font-size: 80rpx;
+  text-align: center;
+  line-height: 120rpx;
+  right: 20rpx;
+  float: right;
+position: fixed;
+bottom: 140rpx;
+}
+.flex{
+  display: flex;
+}
+.flex1{
+  flex: 1;
+}
+
+
+
+
+
+
+
+
+

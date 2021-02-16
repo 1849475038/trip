@@ -1,0 +1,47 @@
+/* pages/www/www.wxss */
+
+.bg{
+  position: absolute;
+  height: 92%;
+  width: 100%;
+  top: 60rpx;
+  z-index: -10;
+  padding-bottom: 80rpx;
+}
+.wi{
+  background: white;
+  height: 600rpx;
+  width: 100%;
+}
+.dangqian{
+  text-align: center;
+  font-size: 30rpx;
+}
+.left-top{
+  width: 200rpx;
+  height: 200rpx;
+  padding: 10rpx 40rpx;
+}
+
+.du{
+  font-size: 40rpx;
+  float: right;
+}
+.weather{
+  width: 300rpx;
+}
+.temperature{
+  font-size: 120rpx;
+  float: left;
+  }
+  .bbb{
+    margin-top: 500rpx;
+    font-size: 32;
+  display: flex;
+  justify-content:space-around;
+  }
+  .bbb>view{
+    float: left;
+    text-align: center;
+    width: 25%;
+  }

@@ -1,0 +1,26 @@
+<!--miniprogram/pages/sou/sou.wxml-->
+<view class="bg">
+  <view class="header blue">
+
+    <image src="http://qdm9gonto.bkt.clouddn.com/%E6%90%9C%E7%B4%A2.png"></image>
+    <input class="input-a" placeholder="北京希尔顿酒店">
+    </input>
+
+  </view>
+  <view class="body">
+    <view>
+      <view class="biaoti">历史搜索</view>
+      <view class="hang">
+      
+        <view class="yuan" wx:for="{{list1}}"><navigator url="{{item.url}}">{{item.font}}</navigator></view>
+      </view>
+    </view>
+    <view>
+      <view class="biaoti">搜索推荐</view>
+      <view class="hang">
+      <view class="yuan"><navigator url="../check/check">当地天气</navigator></view>
+        <view class="yuan" wx:for="{{list2}}">{{item}}</view>
+      </view>
+    </view>
+  </view>
+</view>

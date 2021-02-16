@@ -1,0 +1,30 @@
+<!--pages/list/list.wxml-->
+<view wx:if="{{open}}">
+  <view class="top">暂无订单</view>
+  <view wx:for="{{carts}}" class="box">
+    <text class="title1">预订时间：{{item.date}}</text>
+    <view class="box1">
+      <view class="flex">
+        <view class="flex1">
+          <view class="title">{{item.title}}-成人票</view>
+          <view class="date">{{item.date1}} 有效 {{item.num}}份</view>
+        </view>
+        <view class="flex">
+          <view class="price1">￥</view>
+          <view class="price2">{{item.price*item.num}}</view>
+        </view>
+      </view>
+      <view class="btn flex">
+        <view bindtap="delete" data-idd="{{item._id}}" data-indexx="{{index}}">删除</view>
+        <view>分享</view>
+        <view>再次预订</view>
+      </view>
+    </view>
+  </view>
+</view>
+<view wx:else>
+  <view class="denglu-font">未登录，请先授权登录</view>
+  <button class="denglu" bindtap="denglu">
+    前往登录
+  </button>
+</view>

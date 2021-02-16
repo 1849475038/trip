@@ -1,0 +1,39 @@
+<!-- 搜索框 -->
+<van-search value="{{ value }}" label="地址" placeholder="请输入查询地址" use-action-slot bind:change="onChange">
+  <view slot="action" type="info" bindtap="getName" class="sou">查询</view>
+</van-search>
+
+<view class="bg"></view>
+
+<navigator url="../weather/weather?id={{nanning.result.city}}">
+  <view class="position">
+    <image class="bg1" src="{{img1}}"></image>
+    <view class="font1">{{nanning.result.city}}</view>
+    <view class="right">
+      <view class="font2">{{nanning.result.realtime.temperature}}°</view>
+      <view class="font3">{{nanning.result.realtime.info}}</view>
+    </view>
+  </view>
+</navigator>
+
+<navigator url="../weather/weather?id={{beijin.result.city}}">
+  <view class="position">
+    <image class="bg1" src="{{img1}}"></image>
+    <view class="font1">{{beijin.result.city}}</view>
+    <view class="right">
+      <view class="font2">{{beijin.result.realtime.temperature}}°</view>
+      <view class="font3">{{beijin.result.realtime.info}}</view>
+    </view>
+  </view>
+</navigator>
+
+<navigator url="../weather/weather?id={{shenzhen.result.city}}">
+  <view class="position">
+    <image class="bg1" src="{{img1}}"></image>
+    <view class="font1">{{shenzhen.result.city}}</view>
+    <view class="right">
+      <view class="font2">{{shenzhen.result.realtime.temperature}}°</view>
+      <view class="font3">{{shenzhen.result.realtime.info}}</view>
+    </view>
+  </view>
+  </navigator>

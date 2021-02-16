@@ -1,0 +1,220 @@
+/* pages/dindan/dindan.wxss */
+.flex{
+  display: flex;
+}
+.flex1{
+  flex: 1;
+}
+.one{
+  display: flex;
+}
+.left{
+  flex: 1;
+}
+
+.font1{
+  font-size: 32rpx;
+}
+.font2{
+  font-size: 24rpx;
+  padding-top: 5rpx;
+}
+.font3{
+  font-size: 30rpx;
+}
+.xian{
+  border-right: 1px gainsboro solid;
+  padding-right: 10rpx;
+}
+
+.xian1{
+  padding-left: 10rpx;
+}
+.top{
+  background: white;
+  margin-top: 10rpx;
+  padding: 10rpx 20rpx;
+}
+.top1{
+  margin-top: 20rpx;
+  line-height: 35rpx;
+}
+.jian{
+  border-radius: 50rpx;
+  border: 4rpx rgba(0, 123, 224, 0.884) solid;
+  width: 35rpx;
+  height: 35rpx;
+  font-size: 40rpx;
+  text-align: center;
+  line-height: 35rpx;
+  margin: 0 20rpx;
+  color: rgba(0, 123, 224, 0.884);
+}
+.right1{
+  margin-left: 70rpx;
+  color: red;
+  font-size: 32rpx;
+}
+.down{
+  display: flex;
+   position: fixed;
+   z-index: 5;
+  bottom:0;
+  padding: 10rpx 20rpx;
+background: white;
+width: 95%;
+
+}
+.d-left{
+ display: flex;
+  flex: 1;
+  padding-top: 20rpx;
+}
+.d-right button{
+  background: rgba(0, 123, 224, 0.884);
+  color: white;
+  width: 200rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  font-size: 34rpx;
+}
+.color1{
+  color: red;
+}
+.color2{
+  color: rgba(0, 123, 224, 0.884);
+  padding-left: 20rpx;
+}
+.color-b{
+color: rgba(0, 123, 224, 0.884);
+}
+.mingxi{
+  background: white;
+  border-radius: 40rpx 40rpx 0 0;
+  height: 250rpx;
+  width: 95%;
+  position: fixed;
+  bottom: 80rpx;
+  padding: 20rpx;
+  z-index: 2;
+}
+.bg-b{
+  background: rgba(0, 0, 0, 0.233);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+}
+.xiangxi{
+  display: flex;
+}
+.xiangxi1{
+  flex: 1;
+}
+.text{
+  text-align: center;
+  padding-bottom: 20rpx;
+  font-size: 32rpx;
+}
+.title{
+  text-align: center;
+  padding: 20rpx 0;
+  background: white;
+  margin-bottom: 1rpx;
+}
+.zz-box{
+  position: fixed;
+  top: 0;
+  z-index: 200;
+  background: rgba(0, 0, 0, 0.233);
+width: 100%;
+height: 100%;
+}
+.zz-1{
+  padding: 20rpx;
+  position: absolute;
+  bottom: 0;
+  width: 710rpx;
+  background: white;
+}
+.x{
+  font-size: 40rpx;
+  color: gray;
+}
+.jiaqian{
+  margin-top: 40rpx;
+  justify-content: center;
+}
+.jq-1{
+  font-size: 40rpx;
+  padding-top: 15rpx;
+}
+.jq-2{
+  font-size: 60rpx;
+  font-weight: bold;
+}
+.jj{
+  margin-top: 40rpx
+}
+.btn1{
+  text-align: center;
+  width: 100%;
+height: 70rpx;
+line-height: 70rpx;
+  border-radius: 16rpx;
+  margin-top: 130rpx;
+    flex-direction: row;
+    color: white;
+    font-size: 32rpx;
+    align-items: center;
+    background: rgba(0, 123, 224, 0.884);
+  }
+  .box2-img{
+  border-radius: 8rpx;
+  width: 100rpx;
+  height:100rpx;
+  margin: 0 10rpx 0 0;
+}
+.title{
+  font-size: 28rpx;
+}
+.title1{
+  font-size: 28rpx;
+  color: gray;
+}
+.price{
+  margin-top: 10rpx;
+}
+.title3{
+  text-align: left;
+    font-size: 28rpx;
+  color: gray;
+}
+.price1{
+  color: #f62626;
+  font-size: 28rpx;
+}
+.num{
+  margin-left: 20rpx;
+  font-size: 28rpx;
+}
+.box1-img2{
+  width: 25rpx;
+  height: 25rpx;
+  margin: 30rpx 0 0 10rpx;
+}
+.denglu{
+  background: rgba(0, 123, 224, 0.884);
+  color: white;
+  width: 250rpx;
+  height: 60rpx;
+font-size: 32rpx;
+  line-height: 60rpx;
+}
+.denglu-font{
+  font-size: 28rpx;
+  color: gray;
+  text-align: center;
+  margin: 300rpx 0 40rpx;
+}

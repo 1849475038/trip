@@ -1,0 +1,159 @@
+<!--miniprogram/pages/my/my.wxml-->
+<!-- 页面内容 -->
+<view class="content">
+  <!-- 顶部导航栏 -->
+  <view class="bg">
+    <view class="head">
+      <view class="head-left">
+        <image class="" src="https://796e-ynl-6ue2i-1302444261.tcb.qcloud.la/my/sm.png?sign=65cb8de81c009d49899b8d28182397ee&t=1610871867"></image>
+      </view>
+      <view class="head-right">
+      <navigator url="../qiandao/qiandao">
+        <image class="" src="https://796e-ynl-6ue2i-1302444261.tcb.qcloud.la/my/qd.png?sign=fab268ce857e412177f9830e8af7a219&t=1610871884"></image>
+        </navigator>
+        <image class="" src="https://796e-ynl-6ue2i-1302444261.tcb.qcloud.la/my/xx.png?sign=f1c29e36a97d6e6365e92393a7e55b01&t=1610871834"></image>
+        <image class="" src="https://796e-ynl-6ue2i-1302444261.tcb.qcloud.la/my/sz.png?sign=4f7d7cd868f6e5d081ca2e2cdc2bc8f7&t=1610871855"></image>
+      </view>
+    </view>
+    <!-- 头像 -->
+    <view class="head-content">
+      <view wx:if="{{aaa}}" class="flex flex1">
+        <image class="tx1" src="https://796e-ynl-6ue2i-1302444261.tcb.qcloud.la/my/tx.png?sign=6379ae90dd17c9c36e7632374767c8cb&t=1610867573"></image>
+        <button open-type="getUserInfo" bindgetuserinfo="getUserInfo" class="smrz">点击登录</button>
+      </view>
+      <view wx:else class="flex flex1">
+        <image class="tx1" src="{{userInfo.avatarUrl}}"></image>
+        <view>
+          <view class="smrz">{{userInfo.nickName}}</view>
+        </view>
+      </view>
+    </view>
+    <view class="b">
+      <view>
+        <view class="b1">12</view>
+        <view class="b2">我的收藏</view>
+      </view>
+
+      <view>
+        <navigator url="../jfsc/jfsc?id={{jfsc[index].id}}">
+          <view class="b1">0</view>
+          <view class="b2">我的积分</view>
+        </navigator>
+      </view>
+
+      <view>
+        <view class="b1">32</view>
+        <view class="b2">浏览历史</view>
+      </view>
+
+      <view>
+        <view class="b1">6</view>
+        <view class="b2">优惠券</view>
+      </view>
+    </view>
+  </view>
+
+
+  <!-- 卡片一 -->
+  <view class="kapian1">
+    <image class="huiyuan-img" src="https://796e-ynl-6ue2i-1302444261.tcb.qcloud.la/my/hy.png?sign=4bb4b5e7d5437bc52c385244b94c0249&t=1610871905"></image>
+
+    <view class="c">
+      <view class="c1">成为超级会员</view>
+      <view class="c2">尊享8类特权 年省4657元</view>
+    </view>
+    <view class="c3-box">
+      <view class="c3">立即开通 </view>
+    </view>
+  </view>
+
+
+  <!-- 卡片二 -->
+  <view class="kapian2">
+    <view class="d1">
+    <navigator url="../list/list">
+      <image class="wdsc-img" src="https://796e-ynl-6ue2i-1302444261.tcb.qcloud.la/xiecheng/my/quanbu.png?sign=bf8c0fc008205503d93948f943ab4ab4&t=1610016439"></image>
+      <view class="qbdd">全部订单</view>
+      </navigator>
+    </view>
+
+    <view class="d1">
+      <image class="wdsc-img" src="https://796e-ynl-6ue2i-1302444261.tcb.qcloud.la/xiecheng/my/daifukuan.png?sign=ae051bbfe6dc94f4e93a9be38f54b5ae&t=1610016501"></image>
+      <view class="qbdd">待付款</view>
+    </view>
+
+    <view class="d1">
+      <image class="wdsc-img" src="https://796e-ynl-6ue2i-1302444261.tcb.qcloud.la/xiecheng/my/weichuxing.png?sign=ff7c41bbea4f3509116630ca540a741c&t=1610016412"></image>
+      <view class="qbdd">未出行</view>
+    </view>
+
+    <view class="d1">
+      <image class="wdsc-img" src="https://796e-ynl-6ue2i-1302444261.tcb.qcloud.la/xiecheng/my/daidianpin.png?sign=6c7d445890d958727b98257618341e2b&t=1610016517"></image>
+      <view class="qbdd">待点评</view>
+    </view>
+
+  </view>
+
+
+
+  <!-- 卡片四 -->
+  <view class="kapian4">
+    <view class="kaoian3-upper">
+      <view class="wz">我的工具 </view>
+      <view class="look">查看全部工具></view>
+    </view>
+    <view class="line"></view>
+
+    <view class="kaopian3-down">
+      <view class="e1">
+        <image src="https://796e-ynl-6ue2i-1302444261.tcb.qcloud.la/xiecheng/my/changyong.png?sign=49c4fac9635525e79085ca1a894873ac&t=1610016544"></image>
+        <view class="f">常用信息</view>
+      </view>
+
+      <view class="e1">
+        <image src="https://796e-ynl-6ue2i-1302444261.tcb.qcloud.la/xiecheng/my/jiangping.png?sign=290e665f9ae6ea1c628995a9e961a718&t=1610016844"></image>
+        <view class="f">我的奖品</view>
+      </view>
+
+      <view class="e1">
+        <image src="https://796e-ynl-6ue2i-1302444261.tcb.qcloud.la/xiecheng/my/qingdan.png?sign=e59aa7abd0e4e0bb145110fafd8489d4&t=1610016868"></image>
+        <view class="f">出行清单</view>
+      </view>
+
+
+
+      <view class="e1">
+        <image src="https://796e-ynl-6ue2i-1302444261.tcb.qcloud.la/xiecheng/my/zuji.png?sign=46f88de439dd0b6cecac0840f8a5d0f9&t=1610014857"></image>
+        <view class="f">旅行足迹</view>
+      </view>
+
+    </view>
+
+    <view class="kaopian3-down">
+      <view class="e1">
+        <image src="https://796e-ynl-6ue2i-1302444261.tcb.qcloud.la/xiecheng/my/hangban.png?sign=fb1f34ba390ca5791cb4bcf9ea122a50&t=1610016881"></image>
+        <view class="f">航班助手</view>
+      </view>
+
+      <view class="e1">
+        <image src="https://796e-ynl-6ue2i-1302444261.tcb.qcloud.la/xiecheng/my/xingyong.png?sign=5ce72b96353b682c4bb9890ce552ad8a&t=1610014912"></image>
+        <view class="f">我的信用</view>
+      </view>
+
+      <view class="e1">
+        <image src="https://796e-ynl-6ue2i-1302444261.tcb.qcloud.la/xiecheng/my/diaoyan.png?sign=bd7bd7eea58f6f2f1546222330c9f506&t=1610016977"></image>
+        <view class="f">用户调研</view>
+      </view>
+
+
+
+      <view class="e1">
+        <image src="https://796e-ynl-6ue2i-1302444261.tcb.qcloud.la/xiecheng/my/lianxi.png?sign=1f4d1fcd5254d96b004e46f00b7a4f6a&t=1610017272"></image>
+        <view class="f">联系客服</view>
+      </view>
+
+    </view>
+  </view>
+
+
+</view>

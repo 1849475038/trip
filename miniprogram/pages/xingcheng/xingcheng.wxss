@@ -1,0 +1,149 @@
+/* pages/xingcheng/xingcheng.wxss */
+.bg{
+  width: 100%;
+  height: 350rpx;
+}
+.top{
+  padding: 4rpx 10rpx 0 0;
+}
+/* 按钮 */
+.button button{
+background: rgb(0, 110, 255);
+border-radius: 50rpx;
+width: 220rpx;
+height: 60rpx;
+line-height: 60rpx;
+color: white;
+display: flex;
+font-size: 28rpx;
+}
+.bg-w{
+  background: white;
+}
+/* 字体 */
+.font1{
+  font-size: 36rpx;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20rpx;
+}
+.font2{
+  font-size: 34rpx;
+  padding-left: 20rpx;
+border-left: 10rpx rgb(253, 88, 88) solid;
+}
+.font3{
+  margin-top: 8rpx;
+  font-size: 26rpx;
+  text-align: center;
+}
+.font4{
+  font-size: 24rpx;
+  text-align: center;
+  color: rgb(141, 141, 141);
+}
+.font5{
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.font6{
+  font-size: 24rpx;
+  color: rgb(141, 141, 141);
+}
+.f1{
+  flex: 1;
+}
+.dinwei{
+  position: absolute;
+  top: 50rpx;
+  width: 100%;
+
+}
+.box-a{
+  background: white;
+  position: relative;
+  top: -40rpx;
+  border-radius: 20rpx 20rpx 0 0;
+  padding-top: 60rpx;
+}
+
+/* 图片 */
+.img1{
+  width: 228rpx;
+  height: 220rpx;
+  border-radius: 10rpx;
+}
+.img2{
+  width: 100%;
+  height: 200rpx;
+}
+.img3{
+  width: 300rpx;
+  height: 220rpx;
+}
+.img4{
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 20rpx;
+}
+.img5{
+  width: 520rpx;
+  height: 366rpx;
+  margin-right: 8rpx;
+}
+.img6{
+  width: 180rpx;
+height: 180rpx;
+}
+.top1{
+  position: absolute;
+  top: 352rpx;
+  background: #fc4b4b;
+  width: 30rpx;
+height: 30rpx;
+border-radius: 10rpx 0 10rpx 0;
+color: white;
+text-align: center;
+padding-top: 4rpx;
+font-size: 24rpx;
+}
+.pd{
+  display: flex;
+}
+.pd>view{
+  flex: 1;
+  text-align: center;
+}
+.kuang{
+  width: 226rpx;
+  height: 92rpx;
+  border: 2rpx gainsboro solid;
+  border-radius: 10rpx;
+}
+.box-b{
+ padding: 20rpx;
+}
+.flex{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.align-items{
+  align-items: center;
+}
+.flex>kuang{
+  flex: 1;
+}
+.pp{
+  padding: 20rpx;
+}
+.shangbiankuang{
+  border-top: 2rpx rgba(220, 220, 220, 0.644) solid;
+  padding-top: 20rpx;
+}
+.a1{
+  margin-bottom: 20rpx;
+}
+.to{
+ margin-top: 10rpx;
+}

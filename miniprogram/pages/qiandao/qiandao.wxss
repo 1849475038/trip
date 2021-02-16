@@ -1,0 +1,152 @@
+.container{
+  background-color: rgb(242, 242, 248);
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+  /* align-items: center; */
+  min-height: 100vh;
+}
+.bg{
+  width: 100%;
+  position: relative;
+  height: 580rpx;
+  top: 0;
+}
+.bg image{
+  width: 100%;
+  height: 580rpx;
+}
+.qian{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+}
+.mxc1{
+position: absolute;
+top: 550rpx;
+width: 80%;
+height: 74rpx;
+line-height: 74rpx;
+background: #fff;
+text-align: center;
+border-radius: 36rpx;
+z-index: 100;
+font-weight: bold;
+color: rgba(0, 123, 224, 0.884);
+}
+/* .mxc1 text{
+  font-size: 30rpx;
+  font-weight: bold;
+  line-height: 400rpx;
+} */
+.mxc2-1{
+  position: absolute;
+  z-index: 3;
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  /* width: 60%;
+  height: 74rpx; */
+  /* border: 8px solid rgba(0, 123, 224, 0.884); */
+  /* border-radius: 3px; */
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin-top:180rpx;
+}
+.mxc2-1 text{
+  color: #ffffff;
+  font-size: 32rpx;
+  margin-top: 44rpx;
+  line-height: 100rpx;
+}
+.mxc2-2{
+  text-align: center;
+  line-height: 200rpx;
+  margin-right: 10rpx;
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  position: absolute;
+  /* width: 60%;
+  height: 74rpx; */
+  /* border: 8px solid rgba(0, 123, 224, 0.884); */
+  /* background-color: rgba(182, 177, 177, 0.959); */
+  flex-direction: column;
+  display: flex;
+  opacity: 1;
+  /* align-items: center; */
+  margin-top: 180rpx;
+}
+.mxc2-2 text{
+  
+  color: #ffffff;
+  font-size: 32rpx;
+  margin-top: 44rpx;
+  line-height: 100rpx;
+}
+.img{
+  margin-top: 100rpx;
+  width:710rpx;
+  height: 170rpx;
+  border-radius: 36rpx;
+}
+.img image{ 
+  width: 710rpx;
+  height: 170rpx;
+  border-radius: 66rpx;
+}
+.renwu{
+  margin-top: 40rpx;
+  width: 90%;
+display: block;
+justify-content: left;
+  font-size: 26rpx;
+  font-weight: bold;
+  margin-left: 20rpx;
+}
+.list{
+  margin-top: 20rpx;
+  display: flex;
+  width: 96%;
+  height: 140rpx;
+  background: #fff;
+  border-radius: 10rpx;
+  justify-content: space-between;
+  /* line-height: 140rpx; */
+}
+.top{
+  display: flex;
+  /* width: 60%; */
+}
+.top image{
+  margin: 20rpx 20rpx 0 20rpx;
+  width: 90rpx;
+  height: 94rpx;
+  border-radius: 50%;
+}
+.content{
+margin-top: 26rpx;
+  display: block;
+
+}
+.con-top{
+  font-size: 28rpx;
+}
+.jiangli{
+  font-size: 26rpx;
+  color: rgb(250, 212, 109);
+}
+.left{
+  color: #fff;
+  background: rgb(248, 211, 110);
+  border-radius: 18rpx;
+  width: 100rpx;
+  height: 40rpx;
+  font-size: 24rpx;
+  text-align: center;
+  line-height: 40rpx;
+  margin-top: 46rpx;
+  margin-right: 20rpx;
+}

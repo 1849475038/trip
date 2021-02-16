@@ -1,0 +1,278 @@
+<view class="serachBox">
+  <icon class="searchIcon" size='16' type='search'></icon>
+  <input class="search-box" placeholder="请输入关键字" value="{{searchValue}}" />
+  <image class="touxiang"
+    src="https://7569-ui2database-27noq-1302490469.tcb.qcloud.la/car/3.jpg?sign=e680d6b8245eb6444b243589918bdf36&t=1610934674"
+    bindtap="txBox">
+  </image>
+</view>
+<view class="tab">
+<van-tabs bind:click="onClick">
+  <van-tab class="click-text" title="关注">
+    <view class="guanzhu">
+      <view class="guanzhu-text">最近无好友动态哦</view>
+      <view class="guanzhu-text">快来看看大家都在关注哪些人吧~</view>
+      <view class="start">明星大咖查看这里</view>
+    </view>
+    
+  </van-tab>
+  <van-tab title="发现">
+
+    <view class="point">旅行<span class="hot">热</span>点</view>
+    
+    <view class="scroll_box">
+      <scroll-view scroll-x>
+
+        <view class="item_list">
+          <view class="new-one">我的新年第一站</view>
+          <view class="new-two">6.3W热度</view>
+        </view>
+        <view class="item_list">
+          <view class="new-one">探秘网红夜市地摊</view>
+          <view class="new-two">5.3W热度</view>
+        </view>
+        <view class="item_list">
+          <view class="new-one">国内人气书屋酒店</view>
+          <view class="new-two">6.3W热度</view>
+        </view>
+        <view class="item_list">
+          <view class="new-one">我的新年第一站</view>
+          <view class="new-two">6.3W热度</view>
+        </view>
+        <view class="item_list">
+          <view class="new-one">深山里的马尔代夫</view>
+          <view class="new-two">5.1W热度</view>
+        </view>
+        <view class="item_list">
+          <view class="new-one">海边的乌托邦</view>
+          <view class="new-two">4.3W热度</view>
+        </view>
+        <view class="item_list">
+          <view class="new-one">国内超美小岛</view>
+          <view class="new-two">4.1W热度</view>
+        </view>
+        <view class="item_list">
+          <view class="new-one">国假装在国外</view>
+          <view class="new-two">4.9W热度</view>
+        </view>
+      </scroll-view>
+    </view>
+    <view class="tuijian">推荐</view>
+    <view class="bg">
+
+      <view class="box-a">
+        <view class="left">
+          <image class="tx"
+            src="https://7569-ui2database-27noq-1302490469.tcb.qcloud.la/car/3.jpg?sign=e680d6b8245eb6444b243589918bdf36&t=1610934674">
+          </image>
+        </view>
+        <view>
+          <view class="flex">
+            <view class="font1">我的旅游小马甲</view>
+            <view class="font2">发布了旅拍</view>
+          </view>
+          <view class="font3">21小时前发布</view>
+          <view class="bg-g">
+            <image class="tp"
+              src="https://7569-ui2database-27noq-1302490469.tcb.qcloud.la/car/img3.png?sign=de07d2f379d855e8ba2e7348c88b7eee&t=1610952738">
+            </image>
+            <view class="wenben">
+              <view class="flex">
+                <view class="bk flex">
+                  <image class="didian"
+                    src="https://7569-ui2database-27noq-1302490469.tcb.qcloud.la/car/i1.png?sign=911ee332d18280799dc97e57b231f050&t=1610952796">
+                  </image>
+                  <view class="font6">喜洲</view>
+                </view>
+                <view class="bk flex">
+                  <image class="didian"
+                    src="https://7569-ui2database-27noq-1302490469.tcb.qcloud.la/car/i2.png?sign=54fdcf0e8b5c277fe5a9371b004dfadc&t=1610952814">
+                  </image>
+                  <view class="font6">大理</view>
+                </view>
+              </view>
+              <view class="font4">大理热门拍照打卡地,喜洲古镇的洱海太好拍</view>
+              <view class="flex mg-t duiqi">
+                <view class="flex">
+                  <block wx:if="{{add}}">
+                    <image class="dz"
+                      src="https://7569-ui2database-27noq-1302490469.tcb.qcloud.la/car/%E8%B5%9E%20(1).png?sign=7cb33f8dc6287766955a30837410a8dd&t=1610953413"
+                      bindtap="adda"></image>
+                  </block>
+                  <block wx:else>
+                    <image class="dz"
+                      src="https://7569-ui2database-27noq-1302490469.tcb.qcloud.la/car/i3.png?sign=1c65f89e05ff9f3c230e0c7a7dae8880&t=1610952875"
+                      bindtap="addb"></image>
+                  </block>
+                  <view class="font5">{{add1}}</view>
+                </view>
+                <view class="flex">
+                  <image class="dz"
+                    src="https://7569-ui2database-27noq-1302490469.tcb.qcloud.la/car/i4.png?sign=21a8fd4d7f789d713ebc833c372bf871&t=1610952891">
+                  </image>
+                  <view class="font5">2417</view>
+                </view>
+                <view class="flex">
+                  <image class="dz"
+                    src="https://7569-ui2database-27noq-1302490469.tcb.qcloud.la/car/i5.png?sign=bb9470be9a76e19881e2634ba9042f34&t=1610952908">
+                  </image>
+                  <view class="font5">3337</view>
+                </view>
+                <view class="flex">
+                  <image class="dz"
+                    src="https://7569-ui2database-27noq-1302490469.tcb.qcloud.la/car/i6.png?sign=0d86c0f07ae8775c44aaa57a12134247&t=1610952920">
+                  </image>
+                  <view class="font5">分享</view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="box-a">
+        <view class="left">
+          <image class="tx"
+            src="https://7569-ui2database-27noq-1302490469.tcb.qcloud.la/car/2.jpg?sign=2b381c3fcdc1f25cfc52f2987cd5e540&t=1610934700">
+          </image>
+        </view>
+        <view>
+          <view class="flex">
+            <view class="font1">北石同学</view>
+            <view class="font2">发布了旅拍</view>
+          </view>
+          <view class="font3">5天前发布</view>
+          <view class="bg-g">
+            <image class="tp"
+              src="https://7569-ui2database-27noq-1302490469.tcb.qcloud.la/car/img2.png?sign=d3e195adfb5cc87bb99467adc585e5ce&t=1610952993">
+            </image>
+            <view class="wenben">
+              <view class="flex">
+                <view class="bk flex">
+                  <image class="didian"
+                    src="https://7569-ui2database-27noq-1302490469.tcb.qcloud.la/car/i1.png?sign=911ee332d18280799dc97e57b231f050&t=1610952796">
+                  </image>
+                  <view class="font6">双月湾</view>
+                </view>
+                <view class="bk flex">
+                  <image class="didian"
+                    src="https://7569-ui2database-27noq-1302490469.tcb.qcloud.la/car/i2.png?sign=54fdcf0e8b5c277fe5a9371b004dfadc&t=1610952814">
+                  </image>
+                  <view class="font6">惠州</view>
+                </view>
+              </view>
+              <view class="font4">旅行vlog拍摄入门，必备的3大基本内容</view>
+              <view class="flex mg-t duiqi">
+                <view class="flex">
+                  <block wx:if="{{bdd}}">
+                    <image class="dz"
+                      src="https://7569-ui2database-27noq-1302490469.tcb.qcloud.la/car/%E8%B5%9E%20(1).png?sign=7cb33f8dc6287766955a30837410a8dd&t=1610953413"
+                      bindtap="bdda"></image>
+                  </block>
+                  <block wx:else>
+                    <image class="dz"
+                      src="https://7569-ui2database-27noq-1302490469.tcb.qcloud.la/car/i3.png?sign=1c65f89e05ff9f3c230e0c7a7dae8880&t=1610952875"
+                      bindtap="bddb"></image>
+                  </block>
+                  <view class="font5">{{bdd1}}</view>
+                </view>
+                <view class="flex">
+                  <image class="dz"
+                    src="https://7569-ui2database-27noq-1302490469.tcb.qcloud.la/car/i4.png?sign=21a8fd4d7f789d713ebc833c372bf871&t=1610952891">
+                  </image>
+                  <view class="font5">1243</view>
+                </view>
+                <view class="flex">
+                  <image class="dz"
+                    src="https://7569-ui2database-27noq-1302490469.tcb.qcloud.la/car/i5.png?sign=bb9470be9a76e19881e2634ba9042f34&t=1610952908">
+                  </image>
+                  <view class="font5">3211</view>
+                </view>
+                <view class="flex">
+                  <image class="dz"
+                    src="https://7569-ui2database-27noq-1302490469.tcb.qcloud.la/car/i6.png?sign=0d86c0f07ae8775c44aaa57a12134247&t=1610952920">
+                  </image>
+                  <view class="font5">分享</view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="box-a">
+        <view class="left">
+          <image class="tx"
+            src="https://7569-ui2database-27noq-1302490469.tcb.qcloud.la/car/1.jpg?sign=bc07cd7e89b23712a39fabde651059f5&t=1610934729">
+          </image>
+        </view>
+        <view>
+          <view class="flex">
+            <view class="font1">北石同学</view>
+            <view class="font2">发布了旅拍</view>
+          </view>
+          <view class="font3">7天前发布</view>
+          <view class="bg-g">
+            <image class="tp"
+              src="https://7569-ui2database-27noq-1302490469.tcb.qcloud.la/car/img1.png?sign=10727f532c08adbbc2a88715311816e4&t=1610953110">
+            </image>
+            <view class="wenben">
+              <view class="flex">
+                <view class="bk flex">
+                  <image class="didian"
+                    src="https://7569-ui2database-27noq-1302490469.tcb.qcloud.la/car/i1.png?sign=911ee332d18280799dc97e57b231f050&t=1610952796">
+                  </image>
+                  <view class="font6">赛里木湖</view>
+                </view>
+                <view class="bk flex">
+                  <image class="didian"
+                    src="https://7569-ui2database-27noq-1302490469.tcb.qcloud.la/car/i2.png?sign=54fdcf0e8b5c277fe5a9371b004dfadc&t=1610952814">
+                  </image>
+                  <view class="font6">博乐</view>
+                </view>
+              </view>
+              <view class="font4">新疆最美湖泊，这样玩才值得，赛里木湖攻略</view>
+              <view class="flex mg-t duiqi">
+                <view class="flex">
+                  <block wx:if="{{cdd}}">
+                    <image class="dz"
+                      src="https://7569-ui2database-27noq-1302490469.tcb.qcloud.la/car/%E8%B5%9E%20(1).png?sign=7cb33f8dc6287766955a30837410a8dd&t=1610953413"
+                      bindtap="cdda"></image>
+                  </block>
+                  <block wx:else>
+                    <image class="dz"
+                      src="https://7569-ui2database-27noq-1302490469.tcb.qcloud.la/car/i3.png?sign=1c65f89e05ff9f3c230e0c7a7dae8880&t=1610952875"
+                      bindtap="cddb"></image>
+                  </block>
+                  <view class="font5">{{cdd1}}</view>
+                </view>
+                <view class="flex">
+                  <image class="dz"
+                    src="https://7569-ui2database-27noq-1302490469.tcb.qcloud.la/car/i4.png?sign=21a8fd4d7f789d713ebc833c372bf871&t=1610952891">
+                  </image>
+                  <view class="font5">2059</view>
+                </view>
+                <view class="flex">
+                  <image class="dz"
+                    src="https://7569-ui2database-27noq-1302490469.tcb.qcloud.la/car/i5.png?sign=bb9470be9a76e19881e2634ba9042f34&t=1610952908">
+                  </image>
+                  <view class="font5">2054</view>
+                </view>
+                <view class="flex">
+                  <image class="dz"
+                    src="https://7569-ui2database-27noq-1302490469.tcb.qcloud.la/car/i6.png?sign=0d86c0f07ae8775c44aaa57a12134247&t=1610952920">
+                  </image>
+                  <view class="font5">分享</view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </van-tab>
+</van-tabs>
+</view>
+<view class="addBox">
+      <view class="add" bindtap="chooseBtn">
+        +
+      </view>
+    </view>

@@ -1,0 +1,57 @@
+/* pages/www/www.wxss */
+
+.bg{
+  position: absolute;
+  height: 100%;
+  width:100%;
+  background: white;
+  z-index: -9;
+
+}
+.www{
+  font-size: 35rpx;
+  height: 90rpx;
+  text-align: center;
+  line-height: 90rpx;
+  border-radius: 50rpx;
+  margin: 130rpx 25%;
+  color: white;
+  background:rgba(0, 0, 0, 0.205);
+  
+}
+.bg1{
+ border-radius: 20rpx;
+  height: 150rpx;
+  margin: 0 5%;
+  width: 90%;
+ 
+}
+.position{
+  position: relative;
+  padding-top: 20rpx;
+}
+.font1{
+  position: absolute;
+  z-index: 1;
+  top: 60rpx;
+  left: 80rpx;
+  color: white;
+  font-weight: bold;
+  font-size: 45rpx;
+}
+.right{
+ position: absolute;
+  z-index: 1;
+  top: 60rpx;
+  right: 100rpx;
+  color: white;
+  font-weight: bold;
+  display: flex;
+}
+.font2{
+  font-size: 55rpx;
+}
+.font3{
+  margin-left: 10rpx;
+  font-size: 30rpx;
+}

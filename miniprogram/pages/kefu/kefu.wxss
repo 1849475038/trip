@@ -1,0 +1,148 @@
+.btn{
+  background-color: blue;
+}
+.tongzhi{
+  width: 68rpx;
+  height: 68rpx;
+  margin: 10rpx 20rpx 0 20rpx;
+}
+.tongzhi-box{
+  background-color: white;
+  width: 100%;
+  height: 88rpx;
+  display: flex;
+  margin-top: 10rpx;
+  text-align: center;
+  line-height: 88rpx;
+}
+.fuwu-text{
+  font-size: 30rpx;
+  font-weight: 1000;
+
+}
+.tongzhiSmall{
+  width: 40rpx;
+  height: 40rpx;
+  margin: 48rpx 20rpx 40rpx 30rpx;
+}
+.success-text{
+  font-size: 28rpx;
+  margin-top: 26rpx;
+}
+.time-text{
+  font-size: 26rpx;
+  color: gray;
+  margin-top: 10rpx;
+}
+.success-box{
+  display: flex;
+  background-color: #f7f7f7;
+  margin: 10rpx 20rpx 20rpx 20rpx;
+  border-radius: 10rpx;
+  height: 140rpx;
+}
+.header{
+  background-color: white;
+  width: 100%;
+  height: 500rpx;
+  margin-top: 10rpx;
+}
+.text{
+  margin: 28rpx 0 0 0;
+}
+.cha{
+  width: 30rpx;
+  height: 30rpx;
+  margin:28rpx 0 0 300rpx;
+}
+.img-box{
+  display: flex;
+}
+.notice{
+  display: flex;
+justify-content: center;
+}
+.notice-img{
+  width: 30rpx;
+  height: 30rpx;
+  margin:12rpx;
+}
+.notice-text{
+  font-size: 26rpx;
+  font-weight: 1000;
+  color: gray;
+  margin-top: 10rpx;
+}
+.notice-num{
+  color: red;
+  margin: 0 6rpx;
+}
+.next-img{
+  width: 100rpx;
+  height: 100rpx;
+  margin: 40rpx 0 0 34rpx;
+}
+.next-text{
+display: flex;
+margin: 20rpx 0 0 20rpx;
+}
+.next-cart{
+  font-size: 30rpx;
+  font-weight: 1000;
+}
+.next-guanfang{
+  background-color: lightskyblue;
+  width: 70rpx;
+  border-radius: 50rpx;
+  height: 38rpx;
+  text-align: center;
+  font-size: 22rpx;
+  line-height: 38rpx;
+  color: white;
+  margin-left: 20rpx;
+}
+.next-box{
+  display: flex;
+}
+.next{
+  background-color: white;
+  width: 100%;
+  height: 400rpx;
+  margin-top: 20rpx;
+}
+.ninhao{
+  font-size: 26rpx;
+  color: gray;
+  margin: 10rpx 0 0 20rpx;
+}
+.next-content{
+  margin-top: 26rpx;
+}
+.content-img{
+  width: 30rpx;
+  height: 30rpx;
+}
+.content-text{
+font-size: 22rpx;
+color: gray;
+margin-left: 10rpx;
+}
+.content-box{
+  display: flex;
+  margin: 40rpx 0 0 40rpx;
+}
+.bottom-text{
+  font-size: 24rpx;
+  color: gray;
+  text-align: center;
+  margin-top: 20rpx;
+}
+.btn{
+  background-color: rgba(0, 123, 224, 0.884);
+  margin-top: 20rpx;
+  color: white;
+  border-radius: 50rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 28rpx;
+}

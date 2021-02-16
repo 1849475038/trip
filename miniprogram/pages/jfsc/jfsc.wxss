@@ -1,0 +1,147 @@
+/* miniprogram/pages/jfsc/jfsc.wxss */
+.content{
+  width: 100%;
+  height: 100%;
+}
+.qbdd{
+  font-size: 24rpx;
+  margin-top: 10rpx;
+}
+/* 背景图片 */
+.bg{
+  width: 100%;
+  height: 300rpx;
+  position: absolute;
+  top:0;
+  left: 0;
+  z-index: -1;
+}
+/* 顶部导航栏 */
+
+
+.upper{
+  width: 100%;
+  font-size: 120rpx;
+  color: black;
+  text-align: center;
+  
+  
+}
+.lower{
+   color: black;
+   width: 100%;
+   text-align: center;
+   margin-top: 20rpx;
+   font-size: 28rpx;
+}
+/* 卡片1 */
+.kapian1{
+position: relative;
+display: flex;
+justify-content: space-around;
+padding: 10rpx 20rpx;
+background: white;
+border-radius:16rpx; 
+height: 120rpx;
+margin: 20rpx 20rpx;
+}
+.d1 {
+  font-size: 28rpx;
+  text-align: center;
+  /* width: 120rpx; */
+}
+.d1 image{
+width: 70rpx;
+height: 70rpx;
+  
+}
+/* 卡片2 */
+.kapian2{
+margin: 20rpx 20rpx;
+background: white;
+border-radius:16rpx; 
+height: 100%;
+}
+.kapian2-head{
+  text-align: center;
+  padding: 10rpx;
+}
+.kapian2-upper{
+margin: 10rpx 0;
+  font-size: 32rpx;
+}
+.kapian2-lower{
+  color: lavender;
+   font-size: 28rpx;
+   /* padding: 10rpx; */
+}
+/* .czrq-box{
+  margin: 30rpx 0;
+  
+} */
+.title-box{
+  display: flex;
+  justify-content: flex-start;
+}
+.title{
+
+margin:20rpx 20rpx;
+ font-size: 30rpx;
+}
+.title-box>image{
+width: 18rpx;
+height: 30rpx;
+align-self: center;
+display: flex;
+
+}
+.box{
+  display: flex;
+  justify-content: space-around;
+}
+.img-box{
+  
+  margin: 0 20rpx;
+  width: 200rpx;
+}
+.car-img{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius:16rpx; 
+  margin: 10rpx 0;
+}
+.xl{
+  font-size: 26rpx;
+}
+.num{
+    font-size: 24rpx;
+    color: rgb(223, 185, 62);
+    margin: 10rpx 0;
+}
+/* 分割线 */
+.line{
+  background: rgb(244, 244, 253);
+  height: 1rpx;
+ margin-top: 35rpx;
+  margin:  20rpx;
+}
+.more-box{
+  display: flex;
+  justify-content: center;
+}
+.more{
+ 
+  margin: 30rpx 0;
+}
+.more-box>image{
+width: 18rpx;
+height: 30rpx;
+align-self: center;
+display: flex;
+margin: 0 10rpx;
+}
+.food>image{
+  height: 120rpx;
+width: 100%;
+border-radius:16rpx; 
+}

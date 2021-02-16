@@ -1,0 +1,29 @@
+/* pages/wutian/wutian.wxss */
+.box{
+  padding-top: 45%;
+  padding-left:10%;
+}
+.box-1{
+display: flex;
+text-align: center;
+padding-top: 40rpx;
+}
+.box-1 view{
+color: white;
+width: 200rpx;
+font-size: 35rpx;
+}
+.font1{
+  padding-top: 60rpx;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 35rpx;
+}
+.bg1{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -10;
+ 
+}

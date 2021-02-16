@@ -1,0 +1,75 @@
+<!--pages/jingdian/jingdian.wxml-->
+<view>
+  <image class="banner" src="{{shop.banner}}" />
+</view>
+<view class="bg-g">
+  <view class="card">
+    <view class="card-a">
+      <view class="left">
+        <view class="name">{{shop.name}}</view>
+        <view class="jianjie">“{{shop.biaoyu}}”</view>
+      </view>
+      <view class="right">
+        <view>
+          <view class="pinfen">{{shop.pinfen}}
+            <text>/5分</text>
+          </view>
+        </view>
+        <view class="pinlun">
+          <view>{{shop.pinlun}}条评论</view>
+          <van-icon name="arrow" size="30rpx" color="rgba(220, 220, 220)" />
+        </view>
+      </view>
+    </view>
+    <view class="card-b card-bb">
+
+      <image src="https://796e-ynl-6ue2i-1302444261.tcb.qcloud.la/xiecheng/xq/ph.png?sign=273611eabe1432310be97fd11468441b&t=1610622196"></image>
+
+      <view class="body-b">{{shop.chengshi}}景点人气榜第{{shop.paiming}}名</view>
+      <van-icon name="arrow" size="30rpx" color="#b38843" />
+    </view>
+    <view class="card-b" bindtap="ditu">
+      <image src="https://796e-ynl-6ue2i-1302444261.tcb.qcloud.la/xiecheng/xq/dt.png?sign=d1b9bf7c7f8edecea9f93f8c22091afe&t=1610622178"></image>
+      <view class="body-b">{{shop.dizhi}}</view>
+      <van-icon name="arrow" size="30rpx" color="rgba(220, 220, 220)" />
+    </view>
+    <view class="card-c">
+      <image src="https://796e-ynl-6ue2i-1302444261.tcb.qcloud.la/xiecheng/xq/xq.png?sign=eb3fbba0d70647cafa5c296b8d7f34ef&t=1610622214"></image>
+      <view class="body-c">
+        <view class="ellipsis body-ca">1月1日-12月31日 09：00-16：30</view>
+        <view class="body-cb">
+          <view class="body-cba">开园中</view>
+          <view class="body-cbb">游玩约需4-6小时</view>
+        </view>
+      </view>
+      <view class="body-d">更多详情</view>
+    </view>
+  </view>
+</view>
+<view class="menpiao">
+  <view class="mp-a">{{shop.name}}门票+往返船票</view>
+  <view class="mp-b">
+    <view class="xiangqin">
+      <view>成人票（固定航班时间13：30)</view>
+      <view class="ft cob">最早可订明日票</view>
+      <view>
+        <text class="ft cob">随时退</text>
+        <text class="ft">需取票</text>
+      </view>
+      <view>
+        <text class="ft cog">新品</text>
+        <text class="ft cog">已售8</text>
+        <text class="ft cog">购买须知</text>
+        <van-icon name="arrow" size="24rpx" color="rgba(220, 220, 220)" />
+      </view>
+
+    </view>
+    <view class="yuding">
+      <view class="qian">
+        <view class="rad">{{shop.price}}</view>
+        <view>￥</view>
+      </view>
+      <button bindtap="yuding">预订</button>
+    </view>
+  </view>
+</view>

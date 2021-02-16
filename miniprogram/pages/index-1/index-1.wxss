@@ -1,0 +1,128 @@
+/**index.wxss**/
+
+.swiper-box{
+  
+}
+.swiper-box swiper-item image {
+  width: 100%;
+
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  padding: 20rpx 0 0 24rpx;
+}
+
+.header view {
+  float: left;
+}
+
+.location {
+  width: 25%;
+  height: 50rpx;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 24rpx;
+  color: white;
+  font-size: 24rpx;
+  line-height: 50rpx;
+  padding-left: 12rpx;
+}
+
+.location image {
+  width: 32rpx;
+  height: 32rpx;
+  vertical-align: middle;
+}
+
+.search {
+  width: 60%;
+  height: 50rpx;
+  margin-left: 24rpx;
+  position: relative;
+}
+
+.search input {
+  height: 50rpx;
+  padding-left: 52rpx;
+  background: white;
+  border-radius: 24rpx;
+  font-size: 24rpx;
+}
+
+.search image {
+  width: 36rpx;
+  height: 36rpx;
+  position: absolute;
+  top: 8rpx;
+  left: 14rpx;
+}
+
+.icon {
+  
+  /* flex-flow: row wrap; */
+  /* justify-content: space-around; */
+  height: 360rpx;
+  background: white;
+}
+
+.b-icon {
+  align-content: center;
+  height: auto;
+  margin: 0 auto;
+  flex-wrap: nowrap;
+  margin-top: 20rpx;
+  background: white;
+  padding: 20rpx 0;
+}
+.wz{
+  font-size: 24rpx;
+}
+.a{
+  
+  width: 25%;
+  text-align: center;
+  display: inline-block;
+}
+.icon-item {
+  width: 90rpx;
+  height: 90rpx;
+
+  text-align: center;
+}
+
+.title>view {
+  display: inline-block;
+  margin-left: 4rpx;
+  margin-right: 4rpx;
+}
+
+.title {
+  width: 100%;
+  height: 100rpx;
+  padding: 0 20rpx;
+  line-height: 100rpx;
+  font-weight: bold;
+}
+.yanse .van-tabs__line{
+  background-color: skyblue;
+}
+
+
+.img-box image{
+  width: 100%;
+  height: 120rpx;
+  margin-top: 10rpx;
+}
+
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}

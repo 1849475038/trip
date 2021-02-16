@@ -1,0 +1,88 @@
+/* pages/www/www.wxss */
+
+.bg{
+  position: absolute;
+  height: 180rpx;
+  width:180rpx;
+  top: 180rpx;
+left: 75%;
+  z-index: -9;
+
+}
+.www{
+  font-size: 35rpx;
+  height: 90rpx;
+  text-align: center;
+  line-height: 90rpx;
+  border-radius: 50rpx;
+  margin: 130rpx 25%;
+  color: white;
+  background:rgba(0, 0, 0, 0.205);
+  
+}
+.bg1{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -10;
+ 
+}
+.wi{
+  height: 600rpx;
+  width: 100%;
+}
+.dangqian{
+  text-align: center;
+  font-size: 35rpx;
+  color: white;
+  font-weight: bold;
+  padding-top: 20rpx;
+}
+.left-top{
+  position: absolute;
+  z-index: 1;
+  top: 30%;
+left: 50%;
+margin-left: -140rpx;
+  width: 180rpx;
+  text-align: center;
+  color: white;
+}
+
+.du{
+  font-size: 40rpx;
+  float: right;
+}
+.weather{
+  width: 280rpx;
+  text-align: center;
+}
+.temperature{
+  font-size: 180rpx;
+  float: left;
+  width: 280rpx;
+  }
+  .bbb{
+    color: white;
+    margin-top: 650rpx;
+    font-size: 32rpx;
+  display: flex;
+  justify-content:space-around;
+  }
+  .bbb>view{
+    float: left;
+    text-align: center;
+    width: 25%;
+  }
+  .bbb>view>view{
+    padding-top: 20rpx;
+    
+  }
+ .sou{
+   color: white;
+   font-weight: bold;
+ }
+ .box1{
+   display: flex;
+margin: 20rpx;
+ }

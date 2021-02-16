@@ -1,0 +1,175 @@
+.banner{
+width: 100%;
+height: 450rpx;
+}
+.bg-g{
+  padding: 0 20rpx;
+}
+.card{
+  
+  background: white;
+  border-radius: 20rpx;
+  position: relative;
+  bottom: 40rpx;
+  padding: 20rpx;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+   width: 150rpx;
+  padding-left: 50rpx;
+  border-left: 1rpx rgba(128, 128, 128, 0.349) solid;
+}
+.name{
+  font-size: 40rpx;
+  font-weight:bold;
+}
+.jianjie{
+  color: rgb(1, 113, 218);
+  font-size: 26rpx;
+}
+.pinlun{
+  font-size: 24rpx;
+  color: rgba(0, 0, 0, 0.562);
+width: 200rpx;
+}
+.pinlun view{
+  float: left;
+}
+.pinfen{
+  font-size: 40rpx;
+  color: rgb(1, 113, 218);
+  font-weight:bold;
+ 
+}
+.pinfen text{
+  font-size: 26rpx;
+  color: rgba(0, 0, 0, 0.562);
+}
+.card-a{
+  height: 100rpx;
+  width: 100%;
+}
+.card-b{
+  height: 60rpx;
+  width: 97%;
+  font-size: 30rpx;
+  padding: 5rpx 10rpx;
+display: flex;
+
+margin-top: 20rpx;
+}
+.card-bb{
+  border-radius: 8rpx;
+ color: #b38843;
+ background: #faf7f1;
+}
+.card-b .body-b{
+  flex: 1;
+  padding: 8rpx 0 0 10rpx;
+}
+.card-b image{
+ margin-top: 10rpx;
+width: 40rpx;
+height: 40rpx;
+}
+.card-c{
+  display: flex;
+padding: 20rpx 10rpx;
+border-top: rgba(0, 0, 0, 0.089) 1rpx solid;
+}
+.card-c body-c{
+  flex: 1;
+  font-size: 32rpx;
+  padding-left: 10rpx;
+}
+.card-c image{
+padding: 25rpx 10rpx 0 0;
+  height: 40rpx;
+  width: 40rpx;
+}
+.body-d{
+  padding: 25rpx  0 0 20rpx;
+  color: rgb(1, 113, 218);
+  font-size: 30rpx;
+  font-weight:bold;
+}
+.card-c .body-ca{
+  width: 450rpx;
+  padding-bottom: 10rpx;
+}
+.body-cb view{
+float: left;
+}
+.body-ca{
+  font-size: 32rpx;
+}
+.ellipsis {
+  overflow: hidden; /*文字超出固定宽度隐藏 */
+  white-space: nowrap; /*文字强制不换行 */
+  text-overflow: ellipsis;
+}
+.body-cba{
+  background: #e7f9ee;
+  color: #68d997;
+  font-size: 24rpx;
+  border-radius: 4rpx;
+  padding:  4rpx;
+  margin-right: 10rpx;
+}
+.body-cbb{
+  font-size: 28rpx;
+  color: rgba(0, 0, 0, 0.562);
+}
+.menpiao{
+  background: white;
+  padding: 20rpx;
+  
+}
+.mp-a{
+  width: 100%;
+  font-size: 34rpx;
+  font-weight: bold;
+  padding-bottom: 20rpx;
+}
+.mp-b{
+  width: 655rpx;
+  background: #f5f7fa;
+padding:20rpx 30rpx;
+border-radius: 16rpx;
+display: flex;
+}
+.xiangqin{
+  flex: 1;
+}
+.qian view{
+float: right;
+}
+.yuding{
+  padding-top: 50rpx;
+}
+
+.yuding button {
+  height: 60rpx;
+  width: 130rpx;
+  background: rgb(255, 187, 0);
+  color: white;
+  line-height: 60rpx;
+  border-radius: 14rpx ;
+  font-size: 30rpx;
+}
+.ft{
+  font-size: 24rpx;
+  padding: 6rpx 10rpx 0 0;
+}
+.cob{
+  color: rgb(1, 113, 218);
+}
+.cor{
+    color: rgb(202, 202, 202);
+}
+.red{
+  color: red;
+}

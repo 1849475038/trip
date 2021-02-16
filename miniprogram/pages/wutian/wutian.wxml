@@ -1,0 +1,11 @@
+<!--pages/wutian/wutian.wxml-->
+<view class="font1">{{aaa.result.city}}</view>
+<image class="bg1" src="{{img1}}"></image>
+<view class="box">
+<view class="box-1" wx:for="{{aaa.result.future}}">
+  <view>{{item.date}}</view>
+  <view>{{item.temperature}}</view>
+  <view>{{item.weather}}</view>
+</view>
+
+</view>

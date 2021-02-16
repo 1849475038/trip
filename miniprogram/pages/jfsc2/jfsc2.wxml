@@ -1,0 +1,65 @@
+<!--pages/jfsc2/jfsc2.wxml-->
+<van-tabs active="a" custom-class="AAA"  animated>
+  <!-- 综合排序 -->
+  <van-tab title="综合排序" name="a">
+    <view wx:for="{{food}}">
+      <view class="content">
+        <view class="left">
+        <navigator url="../jfsc3/jfsc3?id={{item.id}}">
+          <image src="{{item.pic}}"></image>
+          </navigator>
+        </view>
+        <view class="right">
+          <view class=" ontop">
+            <view class="ontop2">
+              <view class="wz1">自营</view>
+              <view class="wz2">{{item.name}}</view>
+            </view>
+            <view class="wz3">{{item.names}}</view>
+            <view class="ontop3">
+              <view class="wz4">{{item.branch}}分</view>
+              <view class="wz5">已售{{item.sold}}件</view>
+            </view>
+          </view>
+
+        </view>
+      </view>
+    </view>
+
+  </van-tab>
+
+
+
+
+
+  <!-- 销量优先 -->
+  <van-tab title="销量优先" name="b">
+
+    <view wx:for="{{food}}">
+      <view class="content">
+        <view class="left">
+         <navigator url="../jfsc3/jfsc3?id={{item.id}}">
+          <image src="{{item.pic}}"></image>
+          </navigator>
+        </view>
+
+        <view class="right">
+          <view class=" ontop">
+            <view class="ontop2">
+              <view class="wz1">自营</view>
+              <view class="wz2">{{item.name}}</view>
+            </view>
+            <view class="wz3">{{item.names}}</view>
+            <view class="ontop3">
+              <view class="wz4">{{item.branch}}分</view>
+              <view class="wz5">已售{{item.sold}}件</view>
+            </view>
+          </view>
+
+        </view>
+      </view>
+    </view>
+  </van-tab>
+
+
+</van-tabs>

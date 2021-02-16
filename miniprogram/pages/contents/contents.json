@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+"van-search": "@vant/weapp/search/index",
+  "van-sidebar": "@vant/weapp/sidebar/index",
+  "van-sidebar-item": "@vant/weapp/sidebar-item/index"
+  
+  },
+  "navigationBarTitleText": "更多目的地"
+}

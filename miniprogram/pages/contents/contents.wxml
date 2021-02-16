@@ -1,0 +1,68 @@
+<van-search value="{{ value }}" shape="round" background="#fff" placeholder="请输入搜索关键词" />
+
+<view class="content">
+  <scroll-view class="menu-left">
+    <view class="menu-iten {{index == luckNum?'catgroy-bg':''}}" wx:for="{{menuList}}" data-index="{{index}}"  bindtap="menuClick">{{item.title}}</view>
+   
+  </scroll-view>
+
+  <!-- 右边内容 -->
+  <scroll-view class="menu-right" scroll-y>
+  <view wx:if="{{luckNum == 0}}">
+    <view class="remen">猜你喜欢</view>
+    <view class="tp">
+      <view class="bj">
+        <view class="tupian-box" wx:for="{{tp2}}" bindtap="goDetail" data-detail="{{item.detailid}}">
+          <image class="AA" src="{{item.img}}"></image>
+          <view class="tp-wz">{{item.font}}</view>
+        </view>
+      </view>
+    </view>
+    </view>
+    <view wx:if="{{luckNum == 1}}">
+    <view class="remen">周边经典目的地</view>
+    <view class="tp">
+      <view class="bj">
+        <view class="tupian-box" wx:for="{{girl}}" bindtap="goDetail" data-detail="{{item.detailid}}">
+          <image class="AA" src="{{item.img}}"></image>
+          <view class="tp-wz">{{item.font}}</view>
+        </view>
+      </view>
+    </view>
+    </view>
+    <view wx:if="{{luckNum == 2}}">
+    <view class="remen">热门目的地</view>
+    <view class="tp">
+      <view class="bj">
+        <view class="tupian-box" wx:for="{{baoxie}}" bindtap="goDetail" data-detail="{{item.detailid}}">
+          <image class="AA" src="{{item.img}}"></image>
+          <view class="tp-wz">{{item.font}}</view>
+        </view>
+      </view>
+    </view>
+    </view>
+     <view wx:if="{{luckNum == 3}}">
+    <view class="remen">台湾经典目的地</view>
+    <view class="tp">
+      <view class="bj">
+        <view class="tupian-box" wx:for="{{shipin}}" bindtap="goDetail" data-detail="{{item.detailid}}">
+          <image class="AA" src="{{item.img}}"></image>
+          <view class="tp-wz">{{item.font}}</view>
+        </view>
+      </view>
+    </view>
+    </view>
+    <view wx:if="{{luckNum == 4}}">
+    <view class="remen">日本经典目的地</view>
+    <view class="tp">
+      <view class="bj">
+        <view class="tupian-box" wx:for="{{meizhuang}}" bindtap="goDetail" data-detail="{{item.detailid}}">
+          <image class="AA" src="{{item.img}}"></image>
+          <view class="tp-wz">{{item.font}}</view>
+        </view>
+      </view>
+    </view>
+    </view>
+   
+  </scroll-view>
+</view>

@@ -1,0 +1,12 @@
+<!--pages/activity/activity.wxml-->
+
+<view class="bg">
+  <view class="img-box">
+    <view>
+      <image src="http://qdmcywy3p.bkt.clouddn.com/act1.png"></image>
+    </view>
+  </view>
+  <view class="img" wx:for="{{img}}" wx:key="a">
+    <image src="{{item.imgSrc}}"></image>
+  </view>
+</view>

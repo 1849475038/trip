@@ -1,0 +1,229 @@
+.search-box{
+background-color: #efefef;
+width: 70%;
+height: 60rpx;
+border-radius: 50rpx;
+font-size: 28rpx;
+margin-top: 0rpx;
+padding-left: 80rpx;
+}
+.searchIcon{
+  position: absolute;
+  top: 26rpx;
+  left: 40rpx;
+}
+.serachBox{
+  position: relative;
+background-color: white;
+height: 80rpx;
+padding-top: 10rpx;
+padding-left: 20rpx;
+}
+.guanzhu-text{
+  font-size: 24rpx;
+  padding-bottom: 20rpx;
+  color: gray;
+}
+.guanzhu{
+  text-align: center;
+margin-top: 50%;
+}
+.start{
+  background-color: rgba(0, 123, 224, 0.884);
+  width: 260rpx;
+  height: 60rpx;
+  border-radius: 50rpx;
+  font-size: 26rpx;
+  color: white;
+  line-height: 60rpx;
+  text-align: center;
+  margin: auto;
+  
+}
+.add{
+  background-color:rgba(0, 123, 224, 0.884);
+  border-radius: 50%;
+  width:120rpx;
+  height: 120rpx;
+  color: white;
+  font-size: 80rpx;
+  text-align: center;
+  line-height: 120rpx;
+  position: fixed;
+  z-index: 100;
+  top: 800rpx;
+  right: 40rpx;
+}
+.new{
+  background: white;
+  width: 260rpx;
+  height: 120rpx;
+  border-radius: 10rpx;
+  margin-top: 20rpx;
+  flex: 1;
+  margin: 20rpx 10rpx 0 10rpx;
+}
+.new-one{
+  font-size: 26rpx;
+  padding: 20rpx 0 10rpx 20rpx;
+}
+.new-two{
+  font-size: 24rpx;
+  padding: 0rpx 0 10rpx 20rpx;
+  color: gray;
+}
+.new-item{
+  display: flex;
+  height:160rpx; 
+  width:100%; 
+  display: -webkit-box;
+  flex-direction: column;
+}
+.point{
+  font-family: 'blod';
+  font-size: 46rpx;
+  margin: 10rpx;
+  letter-spacing: 4rpx;
+}
+@font-face{
+  font-family: "blod";
+  src: url('https://static.heytea.com/taro_trial/v1/font/WenYue-XinQingNianTi-NC-W8_1.otf');
+}
+.hot{
+  color: rgb(236, 111, 61);
+}
+.touxiang{
+  border-radius: 100rpx;
+  width: 60rpx;
+  height: 60rpx;
+  position: absolute;
+  top: 20rpx;
+  right: 40rpx;
+
+}
+/* pages/lvpai/lvpai.wxss */
+/* 背景 */
+.bg{
+  background: white;
+  
+}
+.bg-g{
+  background: #f6f9fc;
+  border-radius: 8rpx;
+  
+}
+
+.box-a{
+  display: flex;
+ margin: 20rpx;
+}
+/* 图片 */
+.tx{
+  width: 70rpx;
+  height: 70rpx;
+  margin-top: 20rpx;
+}
+.tp{
+  width: 620rpx;
+  height: 310rpx;
+}
+.didian{
+  width: 30rpx;
+  height: 30rpx;
+}
+.dz{
+  width: 34rpx;
+  height: 34rpx;
+}
+/* 字体 */
+.font1{
+  font-size: 28rpx;
+  font-weight: bold ;
+}
+.font2{
+   font-size: 28rpx;
+   margin-left: 10rpx;
+}
+.font3{
+  font-size: 22rpx;
+  margin-bottom: 10rpx;
+}
+.font4{
+  font-size: 26rpx;
+  margin-top: 10rpx;
+}
+.font5{
+  font-size: 26rpx;
+  margin-left: 10rpx;
+  line-height: 34rpx;
+}
+.font6{
+line-height: 35rpx;
+ font-size: 24rpx;
+  color: #00aa95;
+}
+/* 位置 */
+.left{
+  margin-right: 20rpx; 
+}
+.wenben{
+  margin: 10rpx 20rpx;
+}
+.flex{
+  display: flex;
+  margin-top: 20rpx;
+}
+.mg-t{
+  margin: 20rpx 0 20rpx;
+}
+.duiqi>view{
+flex: 1;
+}
+.duiqi{
+  padding-bottom: 20rpx;
+}
+.jz{
+  text-align: center;
+}
+/* 边框 */
+.bk{
+  height: 35rpx;
+  border: #00aa95 2rpx solid;
+  border-radius: 20rpx;
+  padding: 0 12rpx;
+  margin-right: 20rpx;
+}
+.tuijian{
+  margin-left: 20rpx;
+  font-weight: 1000;
+}
+
+.scroll_box{
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  }
+  .scroll_box scroll-view{
+    width: auto;
+    overflow:hidden;
+  }
+  .item_list{
+    background: white;
+    width: 260rpx;
+    height: 120rpx;
+    border-radius: 10rpx;
+    margin-top: 20rpx;
+  display: inline-block;
+    margin: 20rpx 10rpx 10rpx 10rpx;
+   
+  }
+.tab  .van-tab--active .van-ellipsis{
+  font-size: 30rpx;
+  color: #0FAFAA;
+}
+.tab .van-ellipsis{
+  font-size: 26rpx;
+}
+.tab .van-tabs__line{
+  background: #0FAFAA;
+}

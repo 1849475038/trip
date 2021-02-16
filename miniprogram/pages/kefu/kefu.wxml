@@ -1,0 +1,57 @@
+
+<view class="header">
+  <view class="tongzhi-box">
+    <image class="tongzhi" src="{{tongzhiImg}}"></image>
+    <view class="fuwu-text">{{tongzhiText}}</view>
+  </view>
+  <view wx:for="{{headerBox}}">
+    <view class="success-box">
+      <image class="tongzhiSmall" src="{{headerBox[index].smallImg}}">
+      </image>
+      <view>
+        <view class="img-box">
+          <view class="success-text">{{headerBox[index].successText}}</view>
+          <image class="cha" src="{{headerBox[index].cha}}">
+          </image>
+        </view>
+        <view class="time-text">{{headerBox[index].timeText}}</view>
+      </view>
+    </view>
+  </view>
+  <view class="notice">
+    <view class="notice-text">共<sapn class="notice-num">2</sapn>条新通知</view>
+    <image class="notice-img" src="{{noticeImg}}"></image>
+  </view>
+</view>
+
+<view class="next">
+  <view class="next-box" bindtap="clickBox">
+    <image class="next-img" src="{{contentImg}}"></image>
+    <view class="next-content">
+      <view class="next-text">
+        <view class="next-cart">{{contentText}}</view>
+        <view class="next-guanfang">{{contentGuanfang}}</view>
+      </view>
+      <view class="ninhao">{{contentMore}}</view>
+    </view>
+  </view>
+  <view class="content-box">
+    <image class="content-img"
+      src="https://7569-ui2database-27noq-1302490469.tcb.qcloud.la/car/%E6%97%B6%E9%92%9F.png?sign=0024d353043d67531c3feb43ac9dd635&t=1610641641">
+    </image>
+    <view class="content-text">1个月前的消息</view>
+  </view>
+
+  <view class="next-box" bindtap="clickBox">
+    <image class="next-img" src="{{contentImg1}}"></image>
+    <view class="next-content">
+      <view class="next-text">
+        <view class="next-cart">{{contentText1}}</view>
+        <view class="next-guanfang">{{contentGuanfang1}}</view>
+      </view>
+      <view class="ninhao">{{contentMore1}}</view>
+    </view>
+  </view>
+</view>
+<button class="btn" open-type="contact">联系客服</button> 
+<view class="bottom-text">没有更多内容了</view>

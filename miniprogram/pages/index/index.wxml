@@ -1,0 +1,337 @@
+<!-- 导航 -->
+<view class="header blue">
+  <navigator url="../sou/sou">
+    <input class="input-a" placeholder="北京希尔顿酒店">
+  </input>
+  </navigator>
+</view>
+<!-- 主体 -->
+<view class="blue">
+  <!-- 滚动条 -->
+  <view class="scroll">
+    <text>热搜：</text>
+    <scroll-view class="scroll-a" scroll-x="true">
+      <text wx:for="{{header}}" wx:key="zxcv">
+      <text>{{item}}</text></text>
+    </scroll-view>
+  </view>
+</view>
+<!-- 图标1 -->
+<view class="blue">
+  <view class="aaa">
+    <view wx:for="{{logo1}}" wx:key="qwer">
+      <view>
+        <image src="{{item.img}}"></image>
+        <view>{{item.font}}</view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="body">
+  <!-- 图标2 -->
+  <view class="bbbb">
+    <view>
+      <view class="left-top jiudian">
+        <image class="jiudian1" src="https://796e-ynl-6ue2i-1302444261.tcb.qcloud.la/xiecheng/index/jiudian.png?sign=c7ad5cb76522483febd532d1e33bec9e&t=1609989247"></image>
+        <view class="">酒店</view>
+      </view>
+      <view class="bg-r jiudian">
+        <image src="https://796f-younger-4ercu-1302444409.tcb.qcloud.la/lvyou/lvyouhome/minsu.png?sign=18fdf50924383ab61040a02a209a8053&t=1609988730"></image>
+        <view class="">民宿·客栈</view>
+      </view>
+      <view class="right-top bg-r flex3">
+        <image src="https://796f-younger-4ercu-1302444409.tcb.qcloud.la/lvyou/lvyouhome/tejia.png?sign=586f05c4a242a4ca3cce5f4ed3850e11&t=1609988754"></image>
+        <view>特价·爆款</view>
+      </view>
+    </view>
+  </view>
+  <view class="bbb">
+    <view>
+      <view class="center">
+        <image class="jiudian1" src="https://796e-ynl-6ue2i-1302444261.tcb.qcloud.la/xiecheng/index/jipiao.png?sign=404148297be80ce43c5acbb5dd384fa2&t=1609989265"></image>
+        <view>机票</view>
+      </view>
+      <view class="bg-b">
+        <image src="https://796f-younger-4ercu-1302444409.tcb.qcloud.la/lvyou/lvyouhome/huoche.png?sign=bc4d449dbe9eb2b26858c3029255a62d&t=1609989931"></image>
+        <view>火车票</view>
+      </view>
+      <view class="bg-b">
+        <image src="https://796f-younger-4ercu-1302444409.tcb.qcloud.la/lvyou/lvyouhome/qiche.png?sign=9979c3ce8bebb5a13b48a695a763240a&t=1609988806"></image>
+        <view>汽车·船票</view>
+      </view>
+      <view class="bg-b">
+        <image src="https://796f-younger-4ercu-1302444409.tcb.qcloud.la/lvyou/lvyouhome/zhuanche.png?sign=017289735d2bda817fea4f5f30fe26d5&t=1609988825"></image>
+        <view>专车·租车</view>
+      </view>
+    </view>
+    <view>
+      <view class="left-buttom">
+        <navigator url="../index-1/index-1">
+          <image class="jiudian1" src="https://796e-ynl-6ue2i-1302444261.tcb.qcloud.la/xiecheng/index/lvyou.png?sign=f304f26f28762229e20135f3d66bfa0b&t=1610013578"></image>
+          <view>旅游</view>
+        </navigator>
+      </view>
+      <view class="bg-g">
+        <image src="https://796f-younger-4ercu-1302444409.tcb.qcloud.la/lvyou/lvyouhome/zhoubianyou.png?sign=0f733a498bbde2ea9af6c30df07ae38d&t=1609988849"></image>
+        <view>周边游</view>
+      </view>
+      <view class="bg-g">
+        <image src="https://796f-younger-4ercu-1302444409.tcb.qcloud.la/lvyou/lvyouhome/lvyouditu.png?sign=5e342abf17f90a28cf32fc171fa6a6ee&t=1609988867"></image>
+        <view>旅游地图</view>
+      </view>
+      <view class="bg-g right-buttom">
+        <image src="https://796f-younger-4ercu-1302444409.tcb.qcloud.la/lvyou/lvyouhome/zhidingyou.png?sign=7b2454892390213dfb2826844214b946&t=1609988931"></image>
+        <view>定制游</view>
+      </view>
+    </view>
+  </view>
+  <!-- 图标3 -->
+  <view class="ccc">
+    <view>
+      <view wx:for="{{logo3}}" wx:key="asdf">
+        <image src="{{item.img}}"></image>
+        <view>{{item.font}}</view>
+      </view>
+
+    </view>
+    <view>
+      <view class="ccc-2" wx:for="{{logo4}}" wx:key="asdf">
+        <image src="{{item.img}}"></image>
+        <view>{{item.font}}</view>
+      </view>
+    </view>
+  </view>
+  <!-- banner -->
+  <view class="banner">
+    <swiper autoplay circular duration="500" interval="3500">
+      <swiper-item>
+        <image mode="widthFix" style=" width: 100%;" src="https://796f-younger-4ercu-1302444409.tcb.qcloud.la/banner1.jpg?sign=40adb1d71bacb07e1dc346dc56fc6bdc&t=1610015322"></image>
+      </swiper-item>
+      <swiper-item>
+        <image mode="widthFix" style=" width: 100%;" src="https://796f-younger-4ercu-1302444409.tcb.qcloud.la/banner2.jpg?sign=534a1c998f7277e06e16e929c7c0b323&t=1610015388"></image>
+      </swiper-item>
+      <swiper-item>
+        <image mode="widthFix" style=" width: 100%;" src="https://796f-younger-4ercu-1302444409.tcb.qcloud.la/banner3.jpg?sign=82a04075aae0fc7cb1142e23aca37e81&t=1610015408"></image>
+      </swiper-item>
+      <swiper-item>
+        <image mode="widthFix" style=" width: 100%;" src="https://796f-younger-4ercu-1302444409.tcb.qcloud.la/banner4.jpg?sign=849eb95a37798273001826478e57af5d&t=1610015421"></image>
+      </swiper-item>
+      <swiper-item>
+        <image mode="widthFix" style=" width: 100%;" src="https://796f-younger-4ercu-1302444409.tcb.qcloud.la/banner5.jpg?sign=9a2a08f3cb91eaa3cb07de0fbd12d2d1&t=1610015433"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <!-- tab -->
+  <view class="tab">
+    <van-tabs active="{{active}}" color="#0FAFAA" title-font-size="30rpx">
+      <van-tab class="ddd" title="精选">
+        <view class="ddd-1">
+          <view class="ddd-11" wx:for="{{tab1}}">
+            <navigator url="../jingdian/jingdian?id={{item.id}}">
+              <view>
+                <image src="{{item.img}}"></image>
+              </view>
+            </navigator>
+            <view>
+              <text class="ddd-111">{{item.font1}}\n</text>
+              <text class="ddd-112 bg-d">{{item.font2}}  \n</text>
+              <text class="ddd-112">{{item.font3}}\n</text>
+              <text class="ddd-112">{{item.font4}}</text>
+            </view>
+          </view>
+
+        </view>
+        <view class="ddd-2">
+          <view class="ddd-11" wx:for="{{tab2}}">
+            <navigator url="../jingdian/jingdian?id={{item.id}}">
+              <view>
+                <image src="{{item.img}}"></image>
+              </view>
+            </navigator>
+            <view>
+              <text class="ddd-111">{{item.font1}}\n</text>
+              <text class="ddd-112 bg-d">{{item.font2}}  \n</text>
+              <text class="ddd-112">{{item.font3}}\n</text>
+              <text class="ddd-113">￥<text class="ddd-114">{{item.font5}}</text>起</text>
+              <text class="ddd-112">{{item.font4}}</text>
+            </view>
+          </view>
+        </view>
+      </van-tab>
+      <van-tab title="boss推荐">
+        <view class="ddd-1">
+          <view class="ddd-11" wx:for="{{tab3}}">
+            <navigator url="../jingdian/jingdian?id={{item.id}}">
+              <view>
+                <image src="{{item.img}}"></image>
+              </view>
+            </navigator>
+            <view>
+              <text class="ddd-111">{{item.font1}}\n</text>
+              <text class="ddd-112 bg-d">{{item.font2}}  \n</text>
+              <text class="ddd-112">{{item.font3}}\n</text>
+              <text class="ddd-112">{{item.font4}}</text>
+            </view>
+          </view>
+
+        </view>
+        <view class="ddd-2">
+          <view class="ddd-11" wx:for="{{tab4}}">
+            <navigator url="../jingdian/jingdian?id={{item.id}}">
+              <view>
+                <image src="{{item.img}}"></image>
+              </view>
+            </navigator>
+            <view>
+              <text class="ddd-111">{{item.font1}}\n</text>
+              <text class="ddd-112 bg-d">{{item.font2}}  \n</text>
+              <text class="ddd-112">{{item.font3}}\n</text>
+              <text class="ddd-113">￥<text class="ddd-114">{{item.font5}}</text>起</text>
+              <text class="ddd-112">{{item.font4}}</text>
+            </view>
+          </view>
+        </view>
+      </van-tab>
+      <van-tab title="山河探秘">
+        <view class="ddd-1">
+          <view class="ddd-11" wx:for="{{tab1}}">
+            <navigator url="../jingdian/jingdian?id={{item.id}}">
+              <view>
+                <image src="{{item.img}}"></image>
+              </view>
+            </navigator>
+            <view>
+              <text class="ddd-111">{{item.font1}}\n</text>
+              <text class="ddd-112 bg-d">{{item.font2}}  \n</text>
+              <text class="ddd-112">{{item.font3}}\n</text>
+              <text class="ddd-112">{{item.font4}}</text>
+            </view>
+          </view>
+
+        </view>
+        <view class="ddd-2">
+          <view class="ddd-11" wx:for="{{tab2}}">
+            <navigator url="../jingdian/jingdian?id={{item.id}}">
+              <view>
+                <image src="{{item.img}}"></image>
+              </view>
+            </navigator>
+            <view>
+              <text class="ddd-111">{{item.font1}}\n</text>
+              <text class="ddd-112 bg-d">{{item.font2}}  \n</text>
+              <text class="ddd-112">{{item.font3}}\n</text>
+              <text class="ddd-113">￥<text class="ddd-114">{{item.font5}}</text>起</text>
+              <text class="ddd-112">{{item.font4}}</text>
+            </view>
+          </view>
+        </view>
+      </van-tab>
+      <van-tab title="周边">
+        <view class="ddd-1">
+          <view class="ddd-11" wx:for="{{tab3}}">
+            <navigator url="../jingdian/jingdian?id={{item.id}}">
+              <view>
+                <image src="{{item.img}}"></image>
+              </view>
+            </navigator>
+            <view>
+              <text class="ddd-111">{{item.font1}}\n</text>
+              <text class="ddd-112 bg-d">{{item.font2}}  \n</text>
+              <text class="ddd-112">{{item.font3}}\n</text>
+              <text class="ddd-112">{{item.font4}}</text>
+            </view>
+          </view>
+
+        </view>
+        <view class="ddd-2">
+          <view class="ddd-11" wx:for="{{tab4}}">
+            <navigator url="../jingdian/jingdian?id={{item.id}}">
+              <view>
+                <image src="{{item.img}}"></image>
+              </view>
+            </navigator>
+            <view>
+              <text class="ddd-111">{{item.font1}}\n</text>
+              <text class="ddd-112 bg-d">{{item.font2}}  \n</text>
+              <text class="ddd-112">{{item.font3}}\n</text>
+              <text class="ddd-113">￥<text class="ddd-114">{{item.font5}}</text>起</text>
+              <text class="ddd-112">{{item.font4}}</text>
+            </view>
+          </view>
+        </view>
+      </van-tab>
+      <van-tab title="温泉">
+        <view class="ddd-1">
+          <view class="ddd-11" wx:for="{{tab1}}">
+            <navigator url="../jingdian/jingdian?id={{item.id}}">
+              <view>
+                <image src="{{item.img}}"></image>
+              </view>
+            </navigator>
+            <view>
+              <text class="ddd-111">{{item.font1}}\n</text>
+              <text class="ddd-112 bg-d">{{item.font2}}  \n</text>
+              <text class="ddd-112">{{item.font3}}\n</text>
+              <text class="ddd-112">{{item.font4}}</text>
+            </view>
+          </view>
+
+        </view>
+        <view class="ddd-2">
+          <view class="ddd-11" wx:for="{{tab2}}">
+            <navigator url="../jingdian/jingdian?id={{item.id}}">
+              <view>
+                <image src="{{item.img}}"></image>
+              </view>
+            </navigator>
+            <view>
+              <text class="ddd-111">{{item.font1}}\n</text>
+              <text class="ddd-112 bg-d">{{item.font2}}  \n</text>
+              <text class="ddd-112">{{item.font3}}\n</text>
+              <text class="ddd-113">￥<text class="ddd-114">{{item.font5}}</text>起</text>
+              <text class="ddd-112">{{item.font4}}</text>
+            </view>
+          </view>
+        </view>
+      </van-tab>
+      <van-tab title="暑期">
+        <view class="ddd-1">
+          <view class="ddd-11" wx:for="{{tab3}}">
+            <navigator url="../jingdian/jingdian?id={{item.id}}">
+              <view>
+                <image src="{{item.img}}"></image>
+              </view>
+            </navigator>
+            <view>
+              <text class="ddd-111">{{item.font1}}\n</text>
+              <text class="ddd-112 bg-d">{{item.font2}}  \n</text>
+              <text class="ddd-112">{{item.font3}}\n</text>
+              <text class="ddd-112">{{item.font4}}</text>
+            </view>
+          </view>
+
+        </view>
+        <view class="ddd-2">
+          <view class="ddd-11" wx:for="{{tab4}}">
+            <navigator url="../jingdian/jingdian?id={{item.id}}">
+              <view>
+                <image src="{{item.img}}"></image>
+              </view>
+            </navigator>
+            <view>
+              <text class="ddd-111">{{item.font1}}\n</text>
+              <text class="ddd-112 bg-d">{{item.font2}}  \n</text>
+              <text class="ddd-112">{{item.font3}}\n</text>
+              <text class="ddd-113">￥<text class="ddd-114">{{item.font5}}</text>起</text>
+              <text class="ddd-112">{{item.font4}}</text>
+            </view>
+          </view>
+        </view>
+      </van-tab>
+    </van-tabs>
+    <view class="center1">
+      <van-loading color="#1989fa" size="48rpx" />
+    </view>
+  </view>
+</view>

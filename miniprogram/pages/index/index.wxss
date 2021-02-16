@@ -1,0 +1,249 @@
+.ddd-11 image{
+  border-radius: 8rpx 8rpx 0 0;
+}
+.header {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  height: 80rpx; 
+}
+.header image{
+position: fixed;
+z-index: 101;
+  width: 30rpx;
+  height: 30rpx;
+  top: 30rpx;
+  left: 40rpx;
+}
+.input-a{
+  min-height: 40rpx;
+  background: white;
+  border-radius: 28rpx;
+  margin: 20rpx 20rpx 10rpx;
+  padding: 5rpx 60rpx;
+  font-size: 28rpx;
+}
+.blue {
+  background: linear-gradient(to right, #38a5ff, #006ff5);
+}
+.scroll {
+  margin: 80rpx 0 20rpx 0;
+  display: flex;
+  padding: 5rpx 20rpx 0;
+}
+.scroll text {
+  padding-top: 4rpx;
+  color: white;
+  font-size: 24rpx;
+}
+.scroll-a {
+  width: 626rpx;
+  white-space: nowrap;
+}
+.scroll-a text {
+  color: white;
+  font-size: 24rpx;
+  padding: 0rpx 10rpx;
+
+}
+.aaa {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  background: white;
+  border-radius: 40rpx 40rpx 0 0;
+  padding: 20rpx;
+}
+.aaa view {
+  width: 110rpx;
+  text-align: center;
+  font-size: 24rpx;
+}
+.aaa image {
+  height: 60rpx;
+  width: 60rpx;
+}
+.body {
+  background: white;
+  padding: 0 20rpx;
+}
+.bbbb image {
+  padding-top: 10rpx;
+  height: 75rpx;
+  width: 75rpx;
+}
+.jiudian{
+  width: 174rpx;
+}
+.bbbb>view {
+  font-size: 24rpx;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+.bbbb>view>view {
+  font-weight: 24rpx;
+  margin: 1rpx;
+  padding-bottom: 10rpx;
+  font-size: 26rpx;
+}
+.bbb image {
+  padding-top: 10rpx;
+  height: 65rpx;
+  width: 65rpx;
+}
+.bbb>view {
+  font-size: 24rpx;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+.bbb>view>view {
+  flex: 1;
+  font-weight: 24rpx;
+  margin: 1rpx;
+  padding-bottom: 10rpx;
+  font-size: 26rpx;
+}
+.bg-r {
+  background: #fff1e6;
+}
+.bg-b {
+  background: #e8f5ff;
+}
+.bg-g {
+  background: #e3faf5;
+}
+.left-top {
+  background: linear-gradient(to right, #fa6754, #f79868);
+  border-radius: 20rpx 0 0 0;
+  color: white;
+}
+
+.flex3{
+  flex: 2;
+}
+.right-top {
+  border-radius: 0 20rpx 0 0;
+}
+.left-buttom {
+  border-radius: 0 0 0 20rpx;
+  background: linear-gradient(to right, #30c3b6, #6adebe);
+  color: white;
+}
+.right-buttom {
+  border-radius: 0 0 20rpx 0;
+}
+.center {
+  background: linear-gradient(to right, #3d85fa, #50b1fa);
+  color: white;
+}
+.ccc image {
+  height: 55rpx;
+  width: 55rpx;
+}
+.ccc>view {
+  font-size: 22rpx;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding-top: 20rpx;
+  
+}
+.ccc>view>view {
+  text-align: center;
+  width: 110rpx;
+}
+.banner{
+  padding-top: 20rpx;
+  height: 180rpx;
+}
+.banner image{
+  border-radius: 20rpx;
+}
+.banner swiper{
+  height: 180rpx;
+}
+.tab{
+  padding-top: 20rpx;
+  font-size: 20rpx;
+  
+}
+.tab  .van-tab--active .van-ellipsis{
+  font-size: 30rpx;
+  color: #0FAFAA;
+}
+.tab .van-ellipsis{
+  font-size: 26rpx;
+}
+
+.xxx view{
+height: 200rpx;
+width: 50%;
+background: blueviolet;
+float: left;
+padding: 20rpx;
+}
+
+.ddd{
+  width: 500rpx;
+  height: 500rpx;
+  background: rgba(128, 128, 128, 0.062);
+}
+.ddd-1{
+float: left;
+width: 49%;
+padding-top: 20rpx;
+
+}
+.ddd-2{
+float: right;
+width: 49%;
+padding-top: 20rpx;
+}
+.ddd-1 image{
+  width: 350rpx;
+  height: 430rpx;
+}
+.ddd-2 image{
+  width: 350rpx;
+  height: 350rpx;
+}
+.ddd-11{
+  width: 350rpx;
+  border-radius: 16rpx;
+  background: rgba(184, 184, 184, 0.164);
+  padding-bottom: 10rpx;
+  margin-bottom: 10rpx;
+}
+.ddd-111{
+  font-size: 30rpx;
+  margin: 0 10rpx 10rpx;
+}
+.ddd-112{
+  font-size: 22rpx;
+  margin: 0 10rpx 20rpx;
+  border-radius: 4rpx;
+  
+}
+.bg-d{
+  background: linear-gradient(to right, #ff605f, #ffa86c);
+  color: white;
+  padding: 5rpx 10rpx;
+  
+}
+.ddd-113{
+  color: orangered;
+}
+.ddd-114{
+  font-size: 36rpx;
+}
+.center1{
+  padding-top: 20rpx;
+  text-align: center;
+  font-size: 30rpx;
+}
+
+.jiudian1{
+  padding-top: 0;
+}

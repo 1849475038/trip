@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+      "van-tab": "@vant/weapp/tab/index",
+      "van-tabs": "@vant/weapp/tabs/index",
+      "van-card": "@vant/weapp/card/index"
+  },
+  "navigationBarTitleText": "我的积分"
+}

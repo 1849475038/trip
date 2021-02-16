@@ -1,0 +1,229 @@
+/* pages/dity/dity.wxss */
+
+/* 大轮播图 */
+
+.swiper-box {
+  width: 100%;
+  height: 450rpx;
+}
+
+.swiper-box image {
+  width: 100%;
+  /* height: 100%; *//* height:240px; */
+}
+
+swiper {
+  display: block;
+  height: 450rpx;
+}
+
+.img-class {
+  width: 100%;
+  height: 600rpx;
+}
+
+/* 价钱 */
+
+.wddd {
+  height: auto;
+  background: white;
+  
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding:10rpx 20rpx;
+}
+
+.top-wz {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  
+}
+
+.qb {
+  font-size: 28rpx;
+  color: grey;
+ 
+}
+
+.wz1 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 32rpx;
+  
+}
+
+/* 优惠 */
+.kk{
+  white-space: nowrap;
+  margin: 20rpx;
+ 
+}
+.tk {
+  height: auto;
+  border: 2rpx solid skyblue;
+  border-radius: 16rpx;
+  color: skyblue;
+  margin: 0 20rpx;
+   display: inline-block;
+}
+
+.wz2 {
+ text-align: center;
+ padding: 10rpx;
+ 
+}
+.dbt{
+  height: 240rpx;
+}
+.top1 {
+  display: flex;
+  background: white;
+  width: 100%;
+}
+.tx {
+  display: flex;
+  background:#eee;
+  width: 100%;
+}
+.top-wz4 {
+  margin: 30rpx 20rpx;
+  font-size: 28rpx;
+}
+.hy{
+  color: skyblue;
+}
+.fgx {
+  background: lavender;
+  height: 5rpx;
+}
+
+.line {
+  width: 50px;
+  height: 1px;
+  background: grey;
+  margin-bottom: 4px;
+}
+
+.title>view {
+  display: inline-block;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.jf{
+  text-align: center;
+  line-height: 104rpx;
+}
+/* 更多详情，为你发现 */
+
+.title {
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  
+}
+
+/* 图片 */
+
+.datu {
+  margin-top: 5rpx;
+}
+
+.img-a {
+  width: 100%;
+  /* height:350rpx; */
+  display: flex;
+  align-content: center;
+}
+
+.img-b {
+  width: 100%;
+  height: 600rpx;
+}
+
+.a1 {
+  padding: 10rpx;
+  font-size: 28rpx;
+  color: gray;
+}
+.list {
+  background: white;
+  width: 100%;
+  height: auto;
+  border: 1rpx solid gainsboro;
+  border-radius: 12rpx;
+  display: flex;
+}
+
+.list .img{
+  border-radius: 12rpx;
+}
+.img {
+
+  width: 150rpx;
+  height: 180rpx;
+  padding: 20rpx;
+  display: inline-table;
+}
+
+.north-word {
+  flex: auto;
+}
+
+.north-name {
+  padding: 10rpx;
+  width: 530rpx;
+  font-size: 28rpx;
+
+}
+
+.north-tip {
+  width: 530rpx;
+  padding: 4rpx 0;
+  font-size: 26rpx;
+  color: gray;
+}
+
+.north-lie {
+ width: 400rpx;
+ 
+  font-size: 26rpx;
+  color: gray;
+}
+
+.price {
+  padding-top: 2rpx;
+  
+  justify-content: center;
+ flex-wrap: nowrap;
+}
+
+.box {
+  height: 50rpx;
+  display: flex;
+  padding: 10rpx;
+  line-height: 50rpx;
+}
+
+.ellipsis {
+  overflow: hidden; /* 文字超出固定宽度隐藏*/
+  white-space: nowrap; /*文字强制不换行 */
+  text-overflow: ellipsis; /* 多出部分文字以省略号显示 */
+}
+.color1{
+  color: grey;
+}
+.font1{
+ font-size: 24rpx
+}
+.font2{
+  font-size: 28rpx;
+}
+.color2{
+  color: red;
+}

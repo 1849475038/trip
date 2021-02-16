@@ -1,0 +1,45 @@
+<!--pages/me/me.wxml-->
+<view class="bggg"></view>
+<view class="header">
+  <view class="box">
+    <view>
+      <image class="touxiang" src="https://7569-ui2database-27noq-1302490469.tcb.qcloud.la/car/3.jpg?sign=e680d6b8245eb6444b243589918bdf36&t=1610934674">
+      </image>
+    </view>
+    <view class="dengji">我的等级</view>
+    <view class="name-box">
+      <view class="name">twinkle</view>
+      <view class="lv">LV1</view>
+    </view>
+    <view class="content-line">
+      <view class="text-three">关注2</view>
+      <view class="text-three">粉丝0</view>
+      <view class="text-three">获赞0</view>
+    </view>
+  </view>
+</view>
+
+<view class="content">
+  <view class="dongtai">动态</view>
+  <view class="more">
+    <view class="quanbu">全部</view>
+    <view class="tuwen">旅拍图文</view>
+  </view>
+
+  <view class="nin">您发布了旅拍</view>
+  <view wx:for="{{mag}}">
+    <image class="img-me" src="{{item.image}}"></image>
+    <view class="flex">
+    <view class="content-text flex1">{{item.content}}</view>
+    <view class="bottom-box">
+      <image class="bottom-icon" src="https://7569-ui2database-27noq-1302490469.tcb.qcloud.la/car/%E7%82%B9%E8%B5%9E.png?sign=9fe2c4b503400cf78297b5e443045c40&t=1610947938"></image>
+      <image class="bottom-icon1" src="https://7569-ui2database-27noq-1302490469.tcb.qcloud.la/car/%E8%AF%84%E8%AE%BA%20(1).png?sign=6e4d6f42f5692e7cf93d1a71b0aa065f&t=1610948014"></image>
+    </view>
+  </view>
+</view>
+
+  <view class="add" bindtap="chooseBtn">
+    +
+  </view>
+
+</view>

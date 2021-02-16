@@ -1,0 +1,92 @@
+<!--pages/dity/dity.wxml-->
+<view>
+  <view class="header">
+    <!-- 轮播图 -->
+    <view class="swiper-box">
+      <swiper indicator-dots autoplay>
+        <swiper-item>
+          <image src="http://qdmcywy3p.bkt.clouddn.com/bh-banner1.jpg"></image>
+        </swiper-item>
+        <swiper-item>
+          <image src="http://qdmcywy3p.bkt.clouddn.com/bh-banner2.jpg"></image>
+        </swiper-item>
+        <swiper-item>
+          <image src="http://qdmcywy3p.bkt.clouddn.com/bh8.jpg"></image>
+        </swiper-item>
+        <swiper-item>
+          <image src="http://qdmcywy3p.bkt.clouddn.com/bh10.jpg"></image>
+        </swiper-item>
+        <swiper-item>
+          <image src="http://qdmcywy3p.bkt.clouddn.com/bh9.jpg"></image>
+        </swiper-item>
+      </swiper>
+    </view>
+    <!-- 价钱 -->
+    <view class="wddd">
+      <view class="top">
+        <view class="top-wz">￥2514</view>
+        <view class="qb">128人出游</view>
+      </view>
+      <view class="dbt">
+        <view class="wz1">【周末约会-2成人立刻成团出行，2-6人mini团】
+        </view>
+        <view class="a1">人气榜·自营旗舰王 【高铁往返】【纯玩包价-含涠洲岛】【北海连住三晚】品质酒店&海岛&边境瀑布</view>
+        <view class="kk">
+          <view class="tk">
+            <view class="wz2">精致小团</view>
+          </view>
+          <view class="tk">
+            <view class="wz2">动车高铁游</view>
+          </view>
+          <view class="tk">
+            <view class="wz2">海滨/沙滩</view>
+          </view>
+        </view>
+
+      </view>
+
+    </view>
+    <view class="fgx"></view>
+    <view class="tx">
+      <view class="top-wz4">旅游提醒：可接待体温正常、持健康码绿码、未途径或来自国内疫情高风险地区人员</view>
+
+    </view>
+    <view class="fgx"></view>
+    <view class="top1">
+      <view class="top-wz4">
+        <view class="hy">普通会员</view>
+
+      </view>
+      <view class="jf">最少可获得100积分</view>
+    </view>
+
+
+  </view>
+
+  <view class="title">
+    <view class="line"></view>
+    <view class="guanzu-wz1">更多详情，为你发现更多</view>
+    <view class="line"></view>
+  </view>
+
+  <view class="content">
+    <navigator class="list" wx:for="{{spot}}" url="../dity/dity">
+      <image src="{{item.imgSrc}}" class="img"></image>
+      <view class="north-word">
+        <view class="north-name">{{item.name}}</view>
+        <view class="north-tip ellipsis">{{item.tip}}</view>
+        <view class="box">
+          <view class="north-lie ellipsis">{{item.text}}</view>
+          <view class="price font1">
+            <p class="color2">￥
+              <p class="font2">{{item.price}}</p>
+            </p>
+            <p class="color1 ">起</p>
+          </view>
+        </view>
+      </view>
+
+    </navigator>
+
+  </view>
+</view>
